@@ -186,21 +186,57 @@ th {
 }
 h1 {
   font-size: 42px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  margin: 0;
+  color: $h1-color;
+  background-color: #fff;
 }
 h2 {
   font-size: 34px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  margin: 0;
+  color: $h2-color;
+  background-color: #fff;
 }
 h3 {
   font-size: 27px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  margin: 0;
+  color: $h3-color;
+  background-color: #fff;
 }
 h4 {
   font-size: 22px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  margin: 0;
+  color: $h4-color;
+  background-color: #fff;
 }
 h5 {
   font-size: 18px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  margin: 0;
+  color: $h5-color;
+  background-color: #fff;
 }
 h6 {
   font-size: 14px;
+  border: 0;
+  border-radius: 0;
+  padding: 2px 0;
+  margin: 0;
+  color: $h6-color;
+  background-color: #fff;
 }
 button {
   border: 1px solid #aaa;
