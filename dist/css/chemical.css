@@ -248,6 +248,16 @@ input[type="submit"] {
   color: #000;
   background-color: #fff;
 }
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0;
+  color: #000;
+  background-color: #fff;
+}
 button:active,
 input[type="button"]:active,
 input[type="submit"]:active {
