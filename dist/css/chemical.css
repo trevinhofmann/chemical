@@ -202,6 +202,14 @@ h5 {
 h6 {
   font-size: 14px;
 }
+button {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  color: #000;
+  background-color: #fff;
+}
 .container {
   border: 0;
   padding: 20px 30px;
