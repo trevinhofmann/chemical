@@ -194,6 +194,18 @@ h5 {
 h6 {
   font-size: 7px;
 }
+.container {
+  border: 0px;
+  padding: 20px 30px;
+  margin: 0px;
+  color: #000;
+  background-color: #fff;
+}
+.container.container-narrow {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .panel {
   border: 1px solid #aaa;
   border-radius: 5px;
