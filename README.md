@@ -1,4 +1,4 @@
-# chemical
+# Chemical
 
 An extensible front end web framework
 
