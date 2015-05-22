@@ -239,8 +239,9 @@ h6 {
   background-color: #fff;
 }
 button,
-input[type="button"],
-input[type="submit"] {
+input[type='button'],
+input[type='submit'] {
+  font-size: 14px;
   border: 1px solid #aaa;
   border-radius: 5px;
   padding: 5px;
@@ -249,8 +250,8 @@ input[type="submit"] {
   background-color: #fff;
 }
 button:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover {
+input[type='button']:hover,
+input[type='submit']:hover {
   border: 1px solid #aaa;
   border-radius: 5px;
   padding: 5px;
@@ -259,8 +260,8 @@ input[type="submit"]:hover {
   background-color: #fff;
 }
 button:active,
-input[type="button"]:active,
-input[type="submit"]:active {
+input[type='button']:active,
+input[type='submit']:active {
   border: 1px solid #aaa;
   border-radius: 5px;
   padding: 5px;
@@ -284,6 +285,59 @@ input[disabled][type='submit']:active {
   color: #000;
   background-color: #fff;
 }
+button.small,
+input[type='button'].small,
+input[type='submit'].small {
+  font-size: 8px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 3px;
+}
+button.large,
+input[type='button'].large,
+input[type='submit'].large {
+  font-size: 25px;
+  border: 1px solid #aaa;
+  border-radius: 9px;
+  padding: 9px;
+  margin: 9px;
+}
+button.primary,
+input[type='button'].primary,
+input[type='submit'].primary {
+  border: 1px solid #aaa;
+  color: #00b;
+  background-color: $button-primary-background-color;
+}
+button.secondary,
+input[type='button'].secondary,
+input[type='submit'].secondary {
+  border: 1px solid #aaa;
+  color: #00e;
+  background-color: $button-secondary-background-color;
+}
+button.success,
+input[type='button'].success,
+input[type='submit'].success {
+  border: 1px solid #aaa;
+  color: #0a0;
+  background-color: $button-success-background-color;
+}
+button.warning,
+input[type='button'].warning,
+input[type='submit'].warning {
+  border: 1px solid #aaa;
+  color: #b60;
+  background-color: $button-warning-background-color;
+}
+button.danger,
+input[type='button'].danger,
+input[type='submit'].danger {
+  border: 1px solid #aaa;
+  color: #a00;
+  background-color: $button-danger-background-color;
+}
 .container {
   border: 0;
   padding: 20px 30px;
@@ -298,12 +352,15 @@ input[disabled][type='submit']:active {
 }
 .panel {
   border: 1px solid #aaa;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 0;
+  padding: 2px;
   margin: 0;
   color: #000;
   background-color: #fff;
 }
 .code {
   font-family: "Courier New", Courier, monospace;
+  border: 0;
+  padding: $code-padding;
+  margin: $code-margin;
 }
