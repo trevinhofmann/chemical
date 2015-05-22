@@ -27,3 +27,19 @@ input[type="submit"]:active
   margin $button-active-margin
   color $button-active-color
   background-color $button-active-background-color
+
+button[disabled],
+button[disabled]:hover,
+button[disabled]:active,
+input[disabled][type='button'],
+input[disabled][type='button']:hover,
+input[disabled][type='button']:active,
+input[disabled][type='submit'],
+input[disabled][type='submit']:hover,
+input[disabled][type='submit']:active
+  border $button-disabled-border
+  border-radius $button-disabled-border-radius
+  padding $button-disabled-padding
+  margin $button-disabled-margin
+  color $button-disabled-color
+  background-color $button-disabled-background-color

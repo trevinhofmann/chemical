@@ -268,6 +268,22 @@ input[type="submit"]:active {
   color: #000;
   background-color: #fff;
 }
+button[disabled],
+button[disabled]:hover,
+button[disabled]:active,
+input[disabled][type='button'],
+input[disabled][type='button']:hover,
+input[disabled][type='button']:active,
+input[disabled][type='submit'],
+input[disabled][type='submit']:hover,
+input[disabled][type='submit']:active {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0;
+  color: #000;
+  background-color: #fff;
+}
 .container {
   border: 0;
   padding: 20px 30px;
