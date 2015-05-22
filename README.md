@@ -3,6 +3,7 @@
 An extensible front end web framework
 
 
+## Compiling
 
 ```
 npm install stylus -g
