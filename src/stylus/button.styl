@@ -1,4 +1,6 @@
-button
+button,
+input[type="button"],
+input[type="submit"]
   border $button-border
   border-radius $button-border-radius
   padding $button-padding
@@ -6,7 +8,9 @@ button
   color $button-color
   background-color $button-background-color
 
-button:active
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active
   border $button-active-border
   border-radius $button-active-border-radius
   padding $button-active-padding
