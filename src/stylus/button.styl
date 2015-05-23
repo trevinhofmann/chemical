@@ -32,12 +32,12 @@ input[type='submit']:active
 button[disabled],
 button[disabled]:hover,
 button[disabled]:active,
-input[disabled][type='button'],
-input[disabled][type='button']:hover,
-input[disabled][type='button']:active,
-input[disabled][type='submit'],
-input[disabled][type='submit']:hover,
-input[disabled][type='submit']:active
+input[type='button'][disabled],
+input[type='button'][disabled]:hover,
+input[type='button'][disabled]:active,
+input[type='submit'][disabled],
+input[type='submit'][disabled]:hover,
+input[type='submit'][disabled]:active
   border $button-disabled-border
   border-radius $button-disabled-border-radius
   padding $button-disabled-padding
@@ -97,3 +97,68 @@ input[type='submit'].danger
   border $button-danger-border
   color $button-danger-color
   background-color $button-danger-background-color
+
+button[disabled].primary,
+button[disabled].primary:hover,
+button[disabled].primary:active,
+input[type='button'][disabled].primary,
+input[type='button'][disabled].primary:hover,
+input[type='button'][disabled].primary:active,
+input[type='submit'][disabled].primary,
+input[type='submit'][disabled].primary:hover,
+input[type='submit'][disabled].primary:active
+  border $button-primary-disabled-border
+  color $utton-primary-disabled-color
+  background-color $button-primary-disabled-color
+
+button[disabled].secondary,
+button[disabled].secondary:hover,
+button[disabled].secondary:active,
+input[type='button'][disabled].secondary,
+input[type='button'][disabled].secondary:hover,
+input[type='button'][disabled].secondary:active,
+input[type='submit'][disabled].secondary,
+input[type='submit'][disabled].secondary:hover,
+input[type='submit'][disabled].secondary:active
+  border $button-secondary-disabled-border
+  color $utton-secondary-disabled-color
+  background-color $button-secondary-disabled-color
+
+button[disabled].success,
+button[disabled].success:hover,
+button[disabled].success:active,
+input[type='button'][disabled].success,
+input[type='button'][disabled].success:hover,
+input[type='button'][disabled].success:active,
+input[type='submit'][disabled].success,
+input[type='submit'][disabled].success:hover,
+input[type='submit'][disabled].success:active
+  border $button-success-disabled-border
+  color $utton-success-disabled-color
+  background-color $button-success-disabled-color
+
+button[disabled].warning,
+button[disabled].warning:hover,
+button[disabled].warning:active,
+input[type='button'][disabled].warning,
+input[type='button'][disabled].warning:hover,
+input[type='button'][disabled].warning:active,
+input[type='submit'][disabled].warning,
+input[type='submit'][disabled].warning:hover,
+input[type='submit'][disabled].warning:active
+  border $button-warning-disabled-border
+  color $utton-warning-disabled-color
+  background-color $button-warning-disabled-color
+
+button[disabled].danger,
+button[disabled].danger:hover,
+button[disabled].danger:active,
+input[type='button'][disabled].danger,
+input[type='button'][disabled].danger:hover,
+input[type='button'][disabled].danger:active,
+input[type='submit'][disabled].danger,
+input[type='submit'][disabled].danger:hover,
+input[type='submit'][disabled].danger:active
+  border $button-danger-disabled-border
+  color $utton-danger-disabled-color
+  background-color $button-danger-disabled-color
