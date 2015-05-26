@@ -249,6 +249,11 @@ input[type='submit'] {
   color: #000;
   background-color: #fff;
 }
+button:focus,
+input[type='button']:focus,
+input[type='submit']:focus {
+  outline: 0;
+}
 button:hover,
 input[type='button']:hover,
 input[type='submit']:hover {
