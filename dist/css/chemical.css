@@ -105,22 +105,30 @@ button,
 input,
 optgroup,
 select,
-textarea {
+textarea,
+input[type='button'],
+input[type='submit'] {
   color: inherit;
   font: inherit;
   margin: 0;
 }
-button {
+button,
+input[type='button'],
+input[type='submit'] {
   overflow: visible;
 }
 button,
-select {
+select,
+input[type='button'],
+input[type='submit'] {
   text-transform: none;
 }
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"] {
+input[type="submit"],
+input[type='button'],
+input[type='submit'] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -269,152 +277,96 @@ input[type='submit'] {
   color: #000;
   background-color: #fff;
 }
-button:focus,
-input[type='button']:focus,
-input[type='submit']:focus {
+button:focus {
   outline: 0;
 }
-button:hover,
-input[type='button']:hover,
-input[type='submit']:hover {
+button:hover {
   border: 1px solid #aaa;
   color: #000;
   background-color: #d8d8d8;
 }
-button:active,
-input[type='button']:active,
-input[type='submit']:active {
+button:active {
   border: 1px solid #aaa;
   color: #000;
   background-color: #bfbfbf;
 }
 button[disabled],
 button[disabled]:hover,
-button[disabled]:active,
-input[type='button'][disabled],
-input[type='button'][disabled]:hover,
-input[type='button'][disabled]:active,
-input[type='submit'][disabled],
-input[type='submit'][disabled]:hover,
-input[type='submit'][disabled]:active {
+button[disabled]:active {
   border: 1px solid #aaa;
   color: #595959;
   background-color: #a5a5a5;
 }
-button.small,
-input[type='button'].small,
-input[type='submit'].small {
+button.small {
   font-size: 9px;
   border: 1px solid #aaa;
   border-radius: 3px;
   padding: 5px;
   margin: 0;
 }
-button.large,
-input[type='button'].large,
-input[type='submit'].large {
+button.large {
   font-size: 21px;
   border: 1px solid #aaa;
   border-radius: 8px;
   padding: 12px;
   margin: 0;
 }
-button.primary,
-input[type='button'].primary,
-input[type='submit'].primary {
+button.primary {
   border: 1px solid #aaa;
   color: #fff;
   background-color: #06f;
 }
-button.secondary,
-input[type='button'].secondary,
-input[type='submit'].secondary {
+button.secondary {
   border: 1px solid #aaa;
   color: #fff;
   background-color: #5cadff;
 }
-button.success,
-input[type='button'].success,
-input[type='submit'].success {
+button.success {
   border: 1px solid #aaa;
   color: #fff;
   background-color: #61b827;
 }
-button.warning,
-input[type='button'].warning,
-input[type='submit'].warning {
+button.warning {
   border: 1px solid #aaa;
   color: #fff;
   background-color: #f58a20;
 }
-button.danger,
-input[type='button'].danger,
-input[type='submit'].danger {
+button.danger {
   border: 1px solid #aaa;
   color: #fff;
   background-color: #e64545;
 }
 button[disabled].primary,
 button[disabled].primary:hover,
-button[disabled].primary:active,
-input[type='button'][disabled].primary,
-input[type='button'][disabled].primary:hover,
-input[type='button'][disabled].primary:active,
-input[type='submit'][disabled].primary,
-input[type='submit'][disabled].primary:hover,
-input[type='submit'][disabled].primary:active {
+button[disabled].primary:active {
   border: 1px solid #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button[disabled].secondary,
 button[disabled].secondary:hover,
-button[disabled].secondary:active,
-input[type='button'][disabled].secondary,
-input[type='button'][disabled].secondary:hover,
-input[type='button'][disabled].secondary:active,
-input[type='submit'][disabled].secondary,
-input[type='submit'][disabled].secondary:hover,
-input[type='submit'][disabled].secondary:active {
+button[disabled].secondary:active {
   border: 1px solid #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button[disabled].success,
 button[disabled].success:hover,
-button[disabled].success:active,
-input[type='button'][disabled].success,
-input[type='button'][disabled].success:hover,
-input[type='button'][disabled].success:active,
-input[type='submit'][disabled].success,
-input[type='submit'][disabled].success:hover,
-input[type='submit'][disabled].success:active {
+button[disabled].success:active {
   border: 1px solid #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button[disabled].warning,
 button[disabled].warning:hover,
-button[disabled].warning:active,
-input[type='button'][disabled].warning,
-input[type='button'][disabled].warning:hover,
-input[type='button'][disabled].warning:active,
-input[type='submit'][disabled].warning,
-input[type='submit'][disabled].warning:hover,
-input[type='submit'][disabled].warning:active {
+button[disabled].warning:active {
   border: 1px solid #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button[disabled].danger,
 button[disabled].danger:hover,
-button[disabled].danger:active,
-input[type='button'][disabled].danger,
-input[type='button'][disabled].danger:hover,
-input[type='button'][disabled].danger:active,
-input[type='submit'][disabled].danger,
-input[type='submit'][disabled].danger:hover,
-input[type='submit'][disabled].danger:active {
+button[disabled].danger:active {
   border: 1px solid #aaa;
   color: #acacac;
   background-color: #acacac;
