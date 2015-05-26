@@ -313,35 +313,35 @@ input[type='button'].primary,
 input[type='submit'].primary {
   border: 1px solid #aaa;
   color: #fff;
-  background-color: #00b;
+  background-color: #06f;
 }
 button.secondary,
 input[type='button'].secondary,
 input[type='submit'].secondary {
   border: 1px solid #aaa;
   color: #fff;
-  background-color: #00e;
+  background-color: #5cadff;
 }
 button.success,
 input[type='button'].success,
 input[type='submit'].success {
   border: 1px solid #aaa;
   color: #fff;
-  background-color: #0a0;
+  background-color: #61b827;
 }
 button.warning,
 input[type='button'].warning,
 input[type='submit'].warning {
   border: 1px solid #aaa;
   color: #fff;
-  background-color: #b60;
+  background-color: #f58a20;
 }
 button.danger,
 input[type='button'].danger,
 input[type='submit'].danger {
   border: 1px solid #aaa;
   color: #fff;
-  background-color: #a00;
+  background-color: #e64545;
 }
 button[disabled].primary,
 button[disabled].primary:hover,
