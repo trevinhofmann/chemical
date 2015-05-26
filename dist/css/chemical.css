@@ -283,7 +283,7 @@ input[type='button'],
 input[type='submit'] {
   font-size: 14px;
   border: 1px solid #aaa;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 8px;
   margin: 0;
   color: #000;
@@ -424,7 +424,7 @@ button.small {
 }
 button.large {
   font-size: 21px;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 12px;
   margin: 0;
 }
@@ -442,7 +442,7 @@ button.large {
 }
 .panel {
   border: 1px solid #aaa;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 10px;
   margin: 0;
   color: #000;
@@ -451,7 +451,7 @@ button.large {
 .code {
   font-family: "Courier New", Courier, monospace;
   border: 1px solid #aaa;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 2px;
   margin: 0;
   background-color: #e1e1e1;
