@@ -248,12 +248,12 @@ h6 {
   color: #000;
   background-color: #fff;
 }
-h1.page-header,
-h2.page-header,
-h3.page-header,
-h4.page-header,
-h5.page-header,
-h6.page-header {
+h1.page-heading,
+h2.page-heading,
+h3.page-heading,
+h4.page-heading,
+h5.page-heading,
+h6.page-heading {
   border-bottom: 1px solid #b5b5b5;
   padding: 10px 0;
   margin: 30px 0 20px 0;
@@ -497,10 +497,8 @@ button.large {
 }
 .container {
   border: 0;
-  padding: 20px 30px;
+  padding: 15px;
   margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 .container.container-narrow {
   width: 60%;
@@ -512,8 +510,6 @@ button.large {
   border-radius: 4px;
   padding: 10px;
   margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 .code {
   font-family: "Courier New", Courier, monospace;
@@ -525,4 +521,13 @@ button.large {
 }
 pre.code {
   margin: 8px 0 0 0;
+}
+header {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #b5b5b5;
+  width: 100%;
+}
+header.fixed {
+  position: fixed;
+  top: 0;
 }
