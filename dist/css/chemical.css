@@ -191,6 +191,9 @@ p.single-spaced {
 p.double-spaced {
   line-height: 200%;
 }
+p.indented {
+  text-indent: 30px;
+}
 h1 {
   font-size: 42px;
   border: 0;
