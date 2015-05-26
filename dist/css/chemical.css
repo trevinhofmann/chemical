@@ -531,3 +531,12 @@ header.fixed {
   position: fixed;
   top: 0;
 }
+footer {
+  background-color: #f4f4f4;
+  border-top: 1px solid #b5b5b5;
+  width: 100%;
+}
+footer.fixed {
+  position: fixed;
+  bottom: 0;
+}
