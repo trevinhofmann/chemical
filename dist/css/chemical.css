@@ -278,92 +278,140 @@ input[type='submit'] {
   background-color: #fff;
 }
 button:hover {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #000;
   background-color: #d8d8d8;
 }
 button:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #000;
   background-color: #bfbfbf;
 }
 button[disabled],
 button[disabled]:hover,
 button[disabled]:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #595959;
   background-color: #a5a5a5;
 }
 button.primary {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #fff;
   background-color: #06f;
+}
+button.primary:hover {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #0052cc;
+}
+button.primary:active {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #0042a6;
 }
 button[disabled].primary,
 button[disabled].primary:hover,
 button[disabled].primary:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button.secondary {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #fff;
   background-color: #5cadff;
+}
+button.secondary:hover {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #178aff;
+}
+button.secondary:active {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #0070e2;
 }
 button[disabled].secondary,
 button[disabled].secondary:hover,
 button[disabled].secondary:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button.success {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #fff;
   background-color: #61b827;
+}
+button.success:hover {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #4e931f;
+}
+button.success:active {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #3f7819;
 }
 button[disabled].success,
 button[disabled].success:hover,
 button[disabled].success:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button.warning {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #fff;
   background-color: #f58a20;
+}
+button.warning:hover {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #d46e0a;
+}
+button.warning:active {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #ac5a08;
 }
 button[disabled].warning,
 button[disabled].warning:hover,
 button[disabled].warning:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button.danger {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #fff;
   background-color: #e64545;
+}
+button.danger:hover {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #d31c1c;
+}
+button.danger:active {
+  border-color: #aaa;
+  color: #fff;
+  background-color: #ab1717;
 }
 button[disabled].danger,
 button[disabled].danger:hover,
 button[disabled].danger:active {
-  border: 1px solid #aaa;
+  border-color: #aaa;
   color: #acacac;
   background-color: #acacac;
 }
 button.small {
   font-size: 9px;
-  border: 1px solid #aaa;
   border-radius: 3px;
   padding: 5px;
   margin: 0;
 }
 button.large {
   font-size: 21px;
-  border: 1px solid #aaa;
   border-radius: 8px;
   padding: 12px;
   margin: 0;
