@@ -288,7 +288,7 @@ input[type='submit'][disabled]:active {
 button.small,
 input[type='button'].small,
 input[type='submit'].small {
-  font-size: 8px;
+  font-size: 9px;
   border: 1px solid #aaa;
   border-radius: 3px;
   padding: 3px;
@@ -297,10 +297,10 @@ input[type='submit'].small {
 button.large,
 input[type='button'].large,
 input[type='submit'].large {
-  font-size: 25px;
+  font-size: 21px;
   border: 1px solid #aaa;
-  border-radius: 9px;
-  padding: 9px;
+  border-radius: 8px;
+  padding: 8px;
   margin: 0;
 }
 button.primary,
