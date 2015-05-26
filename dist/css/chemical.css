@@ -292,19 +292,19 @@ input[type='submit'] {
 button:hover {
   border-color: #aaa;
   color: #000;
-  background-color: #d8d8d8;
+  background-color: #ccc;
 }
 button:active {
   border-color: #aaa;
   color: #000;
-  background-color: #bfbfbf;
+  background-color: #a6a6a6;
 }
 button[disabled],
 button[disabled]:hover,
 button[disabled]:active {
-  border-color: #aaa;
+  border-color: #c8c8c8;
   color: #595959;
-  background-color: #a5a5a5;
+  background-color: #fff;
 }
 button.primary {
   border-color: #aaa;
@@ -324,9 +324,9 @@ button.primary:active {
 button[disabled].primary,
 button[disabled].primary:hover,
 button[disabled].primary:active {
-  border-color: #aaa;
-  color: #acacac;
-  background-color: #acacac;
+  border-color: #bfbfbf;
+  color: #f2f2f2;
+  background-color: #599cff;
 }
 button.secondary {
   border-color: #aaa;
@@ -346,9 +346,9 @@ button.secondary:active {
 button[disabled].secondary,
 button[disabled].secondary:hover,
 button[disabled].secondary:active {
-  border-color: #aaa;
-  color: #acacac;
-  background-color: #acacac;
+  border-color: #c8c8c8;
+  color: #f2f2f2;
+  background-color: #95caff;
 }
 button.success {
   border-color: #aaa;
@@ -368,9 +368,9 @@ button.success:active {
 button[disabled].success,
 button[disabled].success:hover,
 button[disabled].success:active {
-  border-color: #aaa;
-  color: #acacac;
-  background-color: #acacac;
+  border-color: #c8c8c8;
+  color: #f2f2f2;
+  background-color: #96de65;
 }
 button.warning {
   border-color: #aaa;
@@ -390,9 +390,9 @@ button.warning:active {
 button[disabled].warning,
 button[disabled].warning:hover,
 button[disabled].warning:active {
-  border-color: #aaa;
-  color: #acacac;
-  background-color: #acacac;
+  border-color: #c8c8c8;
+  color: #f2f2f2;
+  background-color: #f9b36e;
 }
 button.danger {
   border-color: #aaa;
@@ -412,9 +412,9 @@ button.danger:active {
 button[disabled].danger,
 button[disabled].danger:hover,
 button[disabled].danger:active {
-  border-color: #aaa;
-  color: #acacac;
-  background-color: #acacac;
+  border-color: #c8c8c8;
+  color: #f2f2f2;
+  background-color: #ef8686;
 }
 button.small {
   font-size: 9px;

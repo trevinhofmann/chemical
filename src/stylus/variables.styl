@@ -138,13 +138,13 @@ $button-background-color = $background-color
 $button-size-scale = 1.5
 $button-hover-border-color = $button-border-color
 $button-hover-color = $color
-$button-hover-background-color = darken($button-primary-background-color, 20%)
+$button-hover-background-color = darken($button-background-color, 20%)
 $button-active-border-color = $button-border-color
 $button-active-color = $color
-$button-active-background-color = darken($button-primary-background-color, 35%)
-$button-disabled-border-color = $button-border-color
-$button-disabled-color = mix($color, invert($color), 65%)
-$button-disabled-background-color = mix($background-color, invert($background-color), 65%)
+$button-active-background-color = darken($button-background-color, 35%)
+$button-disabled-border-color = lighten($button-border-color, 35%)
+$button-disabled-color = lighten($button-color, 35%)
+$button-disabled-background-color = $button-background-color
 
 // small button
 $button-small-font-size = round($button-font-size / $button-size-scale)
@@ -168,9 +168,9 @@ $button-primary-hover-background-color = darken($button-primary-background-color
 $button-primary-active-border-color = $button-primary-border-color
 $button-primary-active-color = $button-primary-color
 $button-primary-active-background-color = darken($button-primary-background-color, 35%)
-$button-primary-disabled-border-color = $button-primary-border-color
-$button-primary-disabled-color = mix($button-disabled-color, $button-primary-color)
-$button-primary-disabled-background-color = mix($button-disabled-background-color, $button-primary-background-color)
+$button-primary-disabled-border-color = lighten($button-primary-border-color, 25%)
+$button-primary-disabled-color = darken($button-primary-color, 5%)
+$button-primary-disabled-background-color = lighten($button-primary-background-color, 35%)
 
 // secondary button
 $button-secondary-border-color = $button-border-color
@@ -182,9 +182,9 @@ $button-secondary-hover-background-color = darken($button-secondary-background-c
 $button-secondary-active-border-color = $button-secondary-border-color
 $button-secondary-active-color = $button-secondary-color
 $button-secondary-active-background-color = darken($button-secondary-background-color, 35%)
-$button-secondary-disabled-border-color = $button-secondary-border-color
-$button-secondary-disabled-color = mix($button-disabled-color, $button-secondary-color)
-$button-secondary-disabled-background-color = mix($button-disabled-background-color, $button-secondary-background-color)
+$button-secondary-disabled-border-color = lighten($button-secondary-border-color, 35%)
+$button-secondary-disabled-color = darken($button-secondary-color, 5%)
+$button-secondary-disabled-background-color = lighten($button-secondary-background-color, 35%)
 
 // success button
 $button-success-border-color = $button-border-color
@@ -196,9 +196,9 @@ $button-success-hover-background-color = darken($button-success-background-color
 $button-success-active-border-color = $button-success-border-color
 $button-success-active-color = $button-success-color
 $button-success-active-background-color = darken($button-success-background-color, 35%)
-$button-success-disabled-border-color = $button-success-border-color
-$button-success-disabled-color = mix($button-disabled-color, $button-success-color)
-$button-success-disabled-background-color = mix($button-disabled-background-color, $button-success-background-color)
+$button-success-disabled-border-color = lighten($button-success-border-color, 35%)
+$button-success-disabled-color = darken($button-success-color, 5%)
+$button-success-disabled-background-color = lighten($button-success-background-color, 35%)
 
 // warning button
 $button-warning-border-color = $button-border-color
@@ -210,9 +210,9 @@ $button-warning-hover-background-color = darken($button-warning-background-color
 $button-warning-active-border-color = $button-warning-border-color
 $button-warning-active-color = $button-warning-color
 $button-warning-active-background-color = darken($button-warning-background-color, 35%)
-$button-warning-disabled-border-color = $button-warning-border-color
-$button-warning-disabled-color = mix($button-disabled-color, $button-warning-color)
-$button-warning-disabled-background-color = mix($button-disabled-background-color, $button-warning-background-color)
+$button-warning-disabled-border-color = lighten($button-warning-border-color, 35%)
+$button-warning-disabled-color = darken($button-warning-color, 5%)
+$button-warning-disabled-background-color = lighten($button-warning-background-color, 35%)
 
 // danger button
 $button-danger-border-color = $button-border-color
@@ -224,9 +224,9 @@ $button-danger-hover-background-color = darken($button-danger-background-color, 
 $button-danger-active-border-color = $button-danger-border-color
 $button-danger-active-color = $button-danger-color
 $button-danger-active-background-color = darken($button-danger-background-color, 35%)
-$button-danger-disabled-border-color = $button-danger-border-color
-$button-danger-disabled-color = mix($button-disabled-color, $button-danger-color)
-$button-danger-disabled-background-color = mix($button-disabled-background-color, $button-danger-background-color)
+$button-danger-disabled-border-color = lighten($button-danger-border-color, 35%)
+$button-danger-disabled-color = darken($button-danger-color, 5%)
+$button-danger-disabled-background-color = lighten($button-danger-background-color, 35%)
 
 
 /*
