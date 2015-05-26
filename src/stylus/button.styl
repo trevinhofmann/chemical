@@ -7,9 +7,6 @@ button
   color $button-color
   background-color $button-background-color
 
-button:focus
-  outline 0
-
 button:hover
   border $button-hover-border
   color $button-hover-color
@@ -27,6 +24,66 @@ button[disabled]:active
   color $button-disabled-color
   background-color $button-disabled-background-color
 
+button.primary
+  border $button-primary-border
+  color $button-primary-color
+  background-color $button-primary-background-color
+
+button[disabled].primary,
+button[disabled].primary:hover,
+button[disabled].primary:active
+  border $button-primary-disabled-border
+  color $button-primary-disabled-color
+  background-color $button-primary-disabled-color
+
+button.secondary
+  border $button-secondary-border
+  color $button-secondary-color
+  background-color $button-secondary-background-color
+
+button[disabled].secondary,
+button[disabled].secondary:hover,
+button[disabled].secondary:active
+  border $button-secondary-disabled-border
+  color $button-secondary-disabled-color
+  background-color $button-secondary-disabled-color
+
+button.success
+  border $button-success-border
+  color $button-success-color
+  background-color $button-success-background-color
+
+button[disabled].success,
+button[disabled].success:hover,
+button[disabled].success:active
+  border $button-success-disabled-border
+  color $button-success-disabled-color
+  background-color $button-success-disabled-color
+
+button.warning
+  border $button-warning-border
+  color $button-warning-color
+  background-color $button-warning-background-color
+
+button[disabled].warning,
+button[disabled].warning:hover,
+button[disabled].warning:active
+  border $button-warning-disabled-border
+  color $button-warning-disabled-color
+  background-color $button-warning-disabled-color
+
+button.danger
+  border $button-danger-border
+  color $button-danger-color
+  background-color $button-danger-background-color
+
+button[disabled].danger,
+button[disabled].danger:hover,
+button[disabled].danger:active
+  border $button-danger-disabled-border
+  color $button-danger-disabled-color
+  background-color $button-danger-disabled-color
+
 button.small
   font-size $button-small-font-size
   border $button-small-border
@@ -41,65 +98,8 @@ button.large
   padding $button-large-padding
   margin $button-large-margin
 
-button.primary
-  border $button-primary-border
-  color $button-primary-color
-  background-color $button-primary-background-color
-
-button.secondary
-  border $button-secondary-border
-  color $button-secondary-color
-  background-color $button-secondary-background-color
-
-button.success
-  border $button-success-border
-  color $button-success-color
-  background-color $button-success-background-color
-
-button.warning
-  border $button-warning-border
-  color $button-warning-color
-  background-color $button-warning-background-color
-
-button.danger
-  border $button-danger-border
-  color $button-danger-color
-  background-color $button-danger-background-color
-
-button[disabled].primary,
-button[disabled].primary:hover,
-button[disabled].primary:active
-  border $button-primary-disabled-border
-  color $button-primary-disabled-color
-  background-color $button-primary-disabled-color
-
-button[disabled].secondary,
-button[disabled].secondary:hover,
-button[disabled].secondary:active
-  border $button-secondary-disabled-border
-  color $button-secondary-disabled-color
-  background-color $button-secondary-disabled-color
-
-button[disabled].success,
-button[disabled].success:hover,
-button[disabled].success:active
-  border $button-success-disabled-border
-  color $button-success-disabled-color
-  background-color $button-success-disabled-color
-
-button[disabled].warning,
-button[disabled].warning:hover,
-button[disabled].warning:active
-  border $button-warning-disabled-border
-  color $button-warning-disabled-color
-  background-color $button-warning-disabled-color
-
-button[disabled].danger,
-button[disabled].danger:hover,
-button[disabled].danger:active
-  border $button-danger-disabled-border
-  color $button-danger-disabled-color
-  background-color $button-danger-disabled-color
+button:focus
+  outline 0
 
 input[type='button']
   @extends button
