@@ -257,7 +257,7 @@ input[type='submit']:hover {
   padding: 5px;
   margin: 0;
   color: #000;
-  background-color: #fff;
+  background-color: #d8d8d8;
 }
 button:active,
 input[type='button']:active,
@@ -267,7 +267,7 @@ input[type='submit']:active {
   padding: 5px;
   margin: 0;
   color: #000;
-  background-color: #fff;
+  background-color: #bfbfbf;
 }
 button[disabled],
 button[disabled]:hover,
@@ -282,8 +282,8 @@ input[type='submit'][disabled]:active {
   border-radius: 5px;
   padding: 5px;
   margin: 0;
-  color: #000;
-  background-color: #fff;
+  color: #595959;
+  background-color: #a5a5a5;
 }
 button.small,
 input[type='button'].small,
@@ -307,36 +307,36 @@ button.primary,
 input[type='button'].primary,
 input[type='submit'].primary {
   border: 1px solid #aaa;
-  color: #00b;
-  background-color: $button-primary-background-color;
+  color: #fff;
+  background-color: #00b;
 }
 button.secondary,
 input[type='button'].secondary,
 input[type='submit'].secondary {
   border: 1px solid #aaa;
-  color: #00e;
-  background-color: $button-secondary-background-color;
+  color: #fff;
+  background-color: #00e;
 }
 button.success,
 input[type='button'].success,
 input[type='submit'].success {
   border: 1px solid #aaa;
-  color: #0a0;
-  background-color: $button-success-background-color;
+  color: #fff;
+  background-color: #0a0;
 }
 button.warning,
 input[type='button'].warning,
 input[type='submit'].warning {
   border: 1px solid #aaa;
-  color: #b60;
-  background-color: $button-warning-background-color;
+  color: #fff;
+  background-color: #b60;
 }
 button.danger,
 input[type='button'].danger,
 input[type='submit'].danger {
   border: 1px solid #aaa;
-  color: #a00;
-  background-color: $button-danger-background-color;
+  color: #fff;
+  background-color: #a00;
 }
 button[disabled].primary,
 button[disabled].primary:hover,
@@ -347,9 +347,9 @@ input[type='button'][disabled].primary:active,
 input[type='submit'][disabled].primary,
 input[type='submit'][disabled].primary:hover,
 input[type='submit'][disabled].primary:active {
-  border: $button-primary-disabled-border;
+  border: 1px solid #aaa;
   color: $utton-primary-disabled-color;
-  background-color: $button-primary-disabled-color;
+  background-color: #acacac;
 }
 button[disabled].secondary,
 button[disabled].secondary:hover,
@@ -360,9 +360,9 @@ input[type='button'][disabled].secondary:active,
 input[type='submit'][disabled].secondary,
 input[type='submit'][disabled].secondary:hover,
 input[type='submit'][disabled].secondary:active {
-  border: $button-secondary-disabled-border;
+  border: 1px solid #aaa;
   color: $utton-secondary-disabled-color;
-  background-color: $button-secondary-disabled-color;
+  background-color: #acacac;
 }
 button[disabled].success,
 button[disabled].success:hover,
@@ -373,9 +373,9 @@ input[type='button'][disabled].success:active,
 input[type='submit'][disabled].success,
 input[type='submit'][disabled].success:hover,
 input[type='submit'][disabled].success:active {
-  border: $button-success-disabled-border;
+  border: 1px solid #aaa;
   color: $utton-success-disabled-color;
-  background-color: $button-success-disabled-color;
+  background-color: #acacac;
 }
 button[disabled].warning,
 button[disabled].warning:hover,
@@ -386,9 +386,9 @@ input[type='button'][disabled].warning:active,
 input[type='submit'][disabled].warning,
 input[type='submit'][disabled].warning:hover,
 input[type='submit'][disabled].warning:active {
-  border: $button-warning-disabled-border;
+  border: 1px solid #aaa;
   color: $utton-warning-disabled-color;
-  background-color: $button-warning-disabled-color;
+  background-color: #acacac;
 }
 button[disabled].danger,
 button[disabled].danger:hover,
@@ -399,9 +399,9 @@ input[type='button'][disabled].danger:active,
 input[type='submit'][disabled].danger,
 input[type='submit'][disabled].danger:hover,
 input[type='submit'][disabled].danger:active {
-  border: $button-danger-disabled-border;
+  border: 1px solid #aaa;
   color: $utton-danger-disabled-color;
-  background-color: $button-danger-disabled-color;
+  background-color: #acacac;
 }
 .container {
   border: 0;

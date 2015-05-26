@@ -1,21 +1,41 @@
-// base
+/*
+ * Base variables
+ */
+
+// colors
 $color = #000
 $background-color = #fff
 $border-color = #aaa
+
+// fonts
 $font-size = 14px
 
-// headers
+// borders
+$border-width = 1px
+$border-style = solid
+$border-radius = 5px
+
+
+/*
+ * Headers
+ */
+
+// default header
 $header-border = 0
 $header-border-radius = 0
 $header-padding = 2px 0
 $header-margin = 0
 $header-background-color = $background-color
+
+// header font sizes
 $h1-font-size = round($font-size * 3)
 $h2-font-size = round($h1-font-size * 0.8)
 $h3-font-size = round($h2-font-size * 0.8)
 $h4-font-size = round($h3-font-size * 0.8)
 $h5-font-size = round($h4-font-size * 0.8)
 $h6-font-size = round($h5-font-size * 0.8)
+
+// header borders
 $h1-border = $header-border
 $h2-border = $header-border
 $h3-border = $header-border
@@ -28,18 +48,24 @@ $h3-border-radius = $header-border-radius
 $h4-border-radius = $header-border-radius
 $h5-border-radius = $header-border-radius
 $h6-border-radius = $header-border-radius
+
+// header padding
 $h1-padding = $header-padding
 $h2-padding = $header-padding
 $h3-padding = $header-padding
 $h4-padding = $header-padding
 $h5-padding = $header-padding
 $h6-padding = $header-padding
+
+// header margin
 $h1-margin = $header-margin
 $h2-margin = $header-margin
 $h3-margin = $header-margin
 $h4-margin = $header-margin
 $h5-margin = $header-margin
 $h6-margin = $header-margin
+
+// header background color
 $h1-background-color = $header-background-color
 $h2-background-color = $header-background-color
 $h3-background-color = $header-background-color
@@ -47,12 +73,10 @@ $h4-background-color = $header-background-color
 $h5-background-color = $header-background-color
 $h6-background-color = $header-background-color
 
-// base borders
-$border-width = 1px
-$border-style = solid
-$border-radius = 5px
 
-// paragraphs
+/*
+ * Paragraphs
+ */
 $paragraph-border = 0
 $paragraph-border-radius = 0
 $paragraph-padding = 0
@@ -60,7 +84,10 @@ $paragraph-margin = 4px 0 4px 0
 $paragraph-color = $color
 $paragraph-background-color = $background-color
 
-// buttons
+
+/*
+ * Buttons
+ */
 $button-font-size = $font-size
 $button-border = $border-width $border-style $border-color
 $button-border-radius = $border-radius
@@ -98,37 +125,39 @@ $button-large-padding = round($button-padding * 1.8)
 $button-large-margin = round($button-padding * 1.8)
 $button-primary-border = $button-border
 $button-primary-color = #fff
-$button-primary-color = #00b
+$button-primary-background-color = #00b
 $button-secondary-border = $button-border
 $button-secondary-color = #fff
-$button-secondary-color = #00e
+$button-secondary-background-color = #00e
 $button-success-border = $button-border
 $button-success-color = #fff
-$button-success-color = #0a0
+$button-success-background-color = #0a0
 $button-warning-border = $button-border
 $button-warning-color = #fff
-$button-warning-color = #b60
+$button-warning-background-color = #b60
 $button-danger-border = $button-border
 $button-danger-color = #fff
-$button-danger-color = #a00
-$button-primary-disabled-border = blend($button-disabled-border, $button-primary-border)
-$button-primary-disabled-color = blend($button-disabled-color, $button-primary-color)
-$button-primary-disabled-background-color = blend($button-disabled-background-color, $button-primary-background-color)
-$button-secondary-disabled-border = blend($button-disabled-border, $button-secondary-border)
-$button-secondary-disabled-color = blend($button-disabled-color, $button-secondary-color)
-$button-secondary-disabled-background-color = blend($button-disabled-background-color, $button-secondary-background-color)
-$button-success-disabled-border = blend($button-disabled-border, $button-success-border)
-$button-success-disabled-color = blend($button-disabled-color, $button-success-color)
-$button-success-disabled-background-color = blend($button-disabled-background-color, $button-success-background-color)
-$button-warning-disabled-border = blend($button-disabled-border, $button-warning-border)
-$button-warning-disabled-color = blend($button-disabled-color, $button-warning-color)
-$button-warning-disabled-background-color = blend($button-disabled-background-color, $button-warning-background-color)
-$button-danger-disabled-border = blend($button-disabled-border, $button-danger-border)
-$button-danger-disabled-color = blend($button-disabled-color, $button-danger-color)
-$button-danger-disabled-background-color = blend($button-disabled-background-color, $button-danger-background-color)
+$button-danger-background-color = #a00
+$button-primary-disabled-border = $button-primary-border
+$button-primary-disabled-color = mix($button-disabled-color, $button-primary-color)
+$button-primary-disabled-background-color = mix($button-disabled-background-color, $button-primary-background-color)
+$button-secondary-disabled-border = $button-secondary-border
+$button-secondary-disabled-color = mix($button-disabled-color, $button-secondary-color)
+$button-secondary-disabled-background-color = mix($button-disabled-background-color, $button-secondary-background-color)
+$button-success-disabled-border = $button-success-border
+$button-success-disabled-color = mix($button-disabled-color, $button-success-color)
+$button-success-disabled-background-color = mix($button-disabled-background-color, $button-success-background-color)
+$button-warning-disabled-border = $button-warning-border
+$button-warning-disabled-color = mix($button-disabled-color, $button-warning-color)
+$button-warning-disabled-background-color = mix($button-disabled-background-color, $button-warning-background-color)
+$button-danger-disabled-border = $button-danger-border
+$button-danger-disabled-color = mix($button-disabled-color, $button-danger-color)
+$button-danger-disabled-background-color = mix($button-disabled-background-color, $button-danger-background-color)
 
 
-// containers
+/*
+ * Containers
+ */
 $container-border = 0
 $container-padding = 20px 30px
 $container-margin = 0
@@ -136,7 +165,10 @@ $container-color = $color
 $container-background-color = $background-color
 $container-narrow-width = 60%
 
-// panels
+
+/*
+ * Panels
+ */
 $panel-border = $border-width $border-style $border-color
 $panel-border-radius = $border-radius
 $panel-padding = 10px
@@ -144,7 +176,10 @@ $panel-margin = 0
 $panel-color = $color
 $panel-background-color = $background-color
 
-// code
+
+/*
+ * Code
+ */
 $code-font = "Courier New", Courier, monospace
 $code-border = 0
 $panel-border-radius = 0
