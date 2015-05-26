@@ -416,9 +416,6 @@ button.large {
   padding: 12px;
   margin: 0;
 }
-button:focus {
-  outline: 0;
-}
 .container {
   border: 0;
   padding: 20px 30px;
