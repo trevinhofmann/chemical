@@ -450,7 +450,9 @@ button.large {
 }
 .code {
   font-family: "Courier New", Courier, monospace;
-  border: 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
   padding: 2px;
   margin: 0;
+  background-color: #e1e1e1;
 }
