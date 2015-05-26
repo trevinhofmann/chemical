@@ -105,30 +105,22 @@ button,
 input,
 optgroup,
 select,
-textarea,
-input[type='button'],
-input[type='submit'] {
+textarea {
   color: inherit;
   font: inherit;
   margin: 0;
 }
-button,
-input[type='button'],
-input[type='submit'] {
+button {
   overflow: visible;
 }
 button,
-select,
-input[type='button'],
-input[type='submit'] {
+select {
   text-transform: none;
 }
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"],
-input[type='button'],
-input[type='submit'] {
+input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -289,63 +281,97 @@ input[type='submit'] {
   color: #000;
   background-color: #fff;
 }
-button:hover {
+button:hover,
+input[type='button']:hover,
+input[type='submit']:hover {
   border-color: #c1c1c1;
   color: #000;
   background-color: #ccc;
 }
-button:active {
+button:active,
+input[type='button']:active,
+input[type='submit']:active {
   border-color: #c1c1c1;
   color: #000;
   background-color: #a6a6a6;
 }
 button[disabled],
 button[disabled]:hover,
-button[disabled]:active {
+button[disabled]:active,
+input[type='button'][disabled],
+input[type='button'][disabled]:hover,
+input[type='button'][disabled]:active,
+input[type='submit'][disabled],
+input[type='submit'][disabled]:hover,
+input[type='submit'][disabled]:active {
   border-color: #d7d7d7;
   color: #595959;
   background-color: #fff;
 }
-button.primary {
+button.primary,
+input[type='button'].primary,
+input[type='submit'].primary {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #06f;
 }
-button.primary:hover {
+button.primary:hover,
+input[type='button'].primary:hover,
+input[type='submit'].primary:hover {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #0052cc;
 }
-button.primary:active {
+button.primary:active,
+input[type='button'].primary:active,
+input[type='submit'].primary:active {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #0042a6;
 }
-button[disabled].primary,
-button[disabled].primary:hover,
-button[disabled].primary:active {
+button.primary[disabled],
+button.primary[disabled]:hover,
+button.primary[disabled]:active,
+input[type='button'].primary,
+input[type='button'].primary:hover,
+input[type='button'].primary:active,
+input[type='submit'].primary,
+input[type='submit'].primary:hover,
+input[type='submit'].primary:active {
   border-color: #d1d1d1;
   color: #f2f2f2;
   background-color: #599cff;
 }
-button.secondary {
+button.secondary,
+input[type='button'].secondary,
+input[type='submit'].secondary {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #5cadff;
 }
-button.secondary:hover {
+button.secondary:hover,
+input[type='button'].secondary:hover,
+input[type='submit'].secondary:hover {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #178aff;
 }
-button.secondary:active {
+button.secondary:active,
+input[type='button'].secondary:active,
+input[type='submit'].secondary:active {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #0070e2;
 }
-button[disabled].secondary,
-button[disabled].secondary:hover,
-button[disabled].secondary:active {
+button.secondary[disabled],
+button.secondary[disabled]:hover,
+button.secondary[disabled]:active,
+input[type='button'].secondary,
+input[type='button'].secondary:hover,
+input[type='button'].secondary:active,
+input[type='submit'].secondary,
+input[type='submit'].secondary:hover,
+input[type='submit'].secondary:active {
   border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #95caff;
@@ -355,63 +381,104 @@ button.success {
   color: #fff;
   background-color: #61b827;
 }
-button.success:hover {
+button.success,
+input[type='button'].success,
+input[type='submit'].success {
+  border-color: #c1c1c1;
+  color: #fff;
+  background-color: #61b827;
+}
+button.success:hover,
+input[type='button'].success:hover,
+input[type='submit'].success:hover {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #4e931f;
 }
-button.success:active {
+button.success:active,
+input[type='button'].success:active,
+input[type='submit'].success:active {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #3f7819;
 }
-button[disabled].success,
-button[disabled].success:hover,
-button[disabled].success:active {
+button.success[disabled],
+button.success[disabled]:hover,
+button.success[disabled]:active,
+input[type='button'].success,
+input[type='button'].success:hover,
+input[type='button'].success:active,
+input[type='submit'].success,
+input[type='submit'].success:hover,
+input[type='submit'].success:active {
   border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #96de65;
 }
-button.warning {
+button.warning,
+input[type='button'].warning,
+input[type='submit'].warning {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #f58a20;
 }
-button.warning:hover {
+button.warning:hover,
+input[type='button'].warning:hover,
+input[type='submit'].warning:hover {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #d46e0a;
 }
-button.warning:active {
+button.warning:active,
+input[type='button'].warning:active,
+input[type='submit'].warning:active {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #ac5a08;
 }
-button[disabled].warning,
-button[disabled].warning:hover,
-button[disabled].warning:active {
+button.warning[disabled],
+button.warning[disabled]:hover,
+button.warning[disabled]:active,
+input[type='button'].warning,
+input[type='button'].warning:hover,
+input[type='button'].warning:active,
+input[type='submit'].warning,
+input[type='submit'].warning:hover,
+input[type='submit'].warning:active {
   border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #f9b36e;
 }
-button.danger {
+button.danger,
+input[type='button'].danger,
+input[type='submit'].danger {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #e64545;
 }
-button.danger:hover {
+button.danger:hover,
+input[type='button'].danger:hover,
+input[type='submit'].danger:hover {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #d31c1c;
 }
-button.danger:active {
+button.danger:active,
+input[type='button'].danger:active,
+input[type='submit'].danger:active {
   border-color: #c1c1c1;
   color: #fff;
   background-color: #ab1717;
 }
-button[disabled].danger,
-button[disabled].danger:hover,
-button[disabled].danger:active {
+button.danger[disabled],
+button.danger[disabled]:hover,
+button.danger[disabled]:active,
+input[type='button'].danger,
+input[type='button'].danger:hover,
+input[type='button'].danger:active,
+input[type='submit'].danger,
+input[type='submit'].danger:hover,
+input[type='submit'].danger:active {
   border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #ef8686;
