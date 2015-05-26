@@ -282,7 +282,7 @@ button,
 input[type='button'],
 input[type='submit'] {
   font-size: 14px;
-  border: 1px solid #aaa;
+  border: 1px solid #c1c1c1;
   border-radius: 4px;
   padding: 8px;
   margin: 0;
@@ -290,129 +290,129 @@ input[type='submit'] {
   background-color: #fff;
 }
 button:hover {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #000;
   background-color: #ccc;
 }
 button:active {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #000;
   background-color: #a6a6a6;
 }
 button[disabled],
 button[disabled]:hover,
 button[disabled]:active {
-  border-color: #c8c8c8;
+  border-color: #d7d7d7;
   color: #595959;
   background-color: #fff;
 }
 button.primary {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #06f;
 }
 button.primary:hover {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #0052cc;
 }
 button.primary:active {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #0042a6;
 }
 button[disabled].primary,
 button[disabled].primary:hover,
 button[disabled].primary:active {
-  border-color: #bfbfbf;
+  border-color: #d1d1d1;
   color: #f2f2f2;
   background-color: #599cff;
 }
 button.secondary {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #5cadff;
 }
 button.secondary:hover {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #178aff;
 }
 button.secondary:active {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #0070e2;
 }
 button[disabled].secondary,
 button[disabled].secondary:hover,
 button[disabled].secondary:active {
-  border-color: #c8c8c8;
+  border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #95caff;
 }
 button.success {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #61b827;
 }
 button.success:hover {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #4e931f;
 }
 button.success:active {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #3f7819;
 }
 button[disabled].success,
 button[disabled].success:hover,
 button[disabled].success:active {
-  border-color: #c8c8c8;
+  border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #96de65;
 }
 button.warning {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #f58a20;
 }
 button.warning:hover {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #d46e0a;
 }
 button.warning:active {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #ac5a08;
 }
 button[disabled].warning,
 button[disabled].warning:hover,
 button[disabled].warning:active {
-  border-color: #c8c8c8;
+  border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #f9b36e;
 }
 button.danger {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #e64545;
 }
 button.danger:hover {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #d31c1c;
 }
 button.danger:active {
-  border-color: #aaa;
+  border-color: #c1c1c1;
   color: #fff;
   background-color: #ab1717;
 }
 button[disabled].danger,
 button[disabled].danger:hover,
 button[disabled].danger:active {
-  border-color: #c8c8c8;
+  border-color: #d7d7d7;
   color: #f2f2f2;
   background-color: #ef8686;
 }
@@ -441,7 +441,7 @@ button.large {
   margin-right: auto;
 }
 .panel {
-  border: 1px solid #aaa;
+  border: 1px solid #c1c1c1;
   border-radius: 4px;
   padding: 10px;
   margin: 0;
@@ -450,9 +450,12 @@ button.large {
 }
 .code {
   font-family: "Courier New", Courier, monospace;
-  border: 1px solid #aaa;
+  border: 1px solid #c1c1c1;
   border-radius: 4px;
   padding: 2px;
   margin: 0;
-  background-color: #e1e1e1;
+  background-color: #ebebeb;
+}
+pre.code {
+  margin: 8px 0 0 0;
 }
