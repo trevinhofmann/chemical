@@ -183,6 +183,13 @@ p {
   margin: 3px 0;
   color: #000;
   background-color: #fff;
+  line-height: 150%;
+}
+p.single-spaced {
+  line-height: 100%;
+}
+p.double-spaced {
+  line-height: 200%;
 }
 h1 {
   font-size: 42px;
