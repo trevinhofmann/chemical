@@ -9,6 +9,69 @@
         <div class="container narrow">
             <h1 class="page-heading">Components</h1>
             <p>This page contains the selection of Chemical components used to structure web pages.</p>
+            <h2 class="page-heading">Grid</h2>
+            <p>Chemical provides a 12-column grid for organizing content. The <span class="code">bordered</span> class on a column will add a border to the column. When added to a row, it will be applied to all contained columns.</p>
+            <div class="panel">
+                <div class="row bordered">
+                    <div class="col-1">.col-1</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-3">.col-3</div>
+                    <div class="col-4">.col-4</div>
+                    <div class="col-1">.col-1</div>
+                    <div class="col-1">.col-1</div>
+                </div>
+                <div class="row bordered">
+                    <div class="col-1">.col-1</div>
+                    <div class="col-11">.col-11</div>
+                </div>
+                <pre class="code">&lt;div class="row bordered">&gt;
+    &lt;div class="col-1"&gt;...&lt;/div&gt;
+    &lt;div class="col-2"&gt;...&lt;/div&gt;
+    &lt;div class="col-3"&gt;...&lt;/div&gt;
+    &lt;div class="col-4"&gt;...&lt;/div&gt;
+    &lt;div class="col-1"&gt;...&lt;/div&gt;
+    &lt;div class="col-1"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row bordered">&gt;
+    &lt;div class="col-1"&gt;...&lt;/div&gt;
+    &lt;div class="col-11"&gt;...&lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+            <p>Brands can be applied to columns as well as entire rows.</p>
+            <div class="panel">
+                <div class="row bordered primary">
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                </div>
+                <div class="row bordered success">
+                    <div class="col-2 secondary">.col-2 .secondary</div>
+                    <div class="col-2 warning">.col-2 .warning</div>
+                    <div class="col-2 danger">.col-2 .danger</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                    <div class="col-2">.col-2</div>
+                </div>
+                <pre class="code">&lt;div class="row bordered primary"&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row bordered success"&gt;
+    &lt;div class="col-2 secondary"&gt;.col-2 .secondary&lt;/div&gt;
+    &lt;div class="col-2 warning"&gt;.col-2 .warning&lt;/div&gt;
+    &lt;div class="col-2 danger"&gt;.col-2 .danger&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
         </div>
     </body>
 </html>
