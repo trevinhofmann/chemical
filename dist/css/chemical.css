@@ -207,8 +207,6 @@ h3,
 h4,
 h5,
 h6 {
-  border: $heading-border;
-  border-radius: $heading-border-radius;
   padding: 2px 0;
   margin: 0;
   color: #000;
@@ -230,7 +228,7 @@ h5 {
   font-size: 19px;
 }
 h6 {
-  font-size: $h6-font-size;
+  font-size: 15px;
 }
 h1.page-heading,
 h2.page-heading,
