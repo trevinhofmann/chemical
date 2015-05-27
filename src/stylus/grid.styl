@@ -1,7 +1,7 @@
 .row
-width 100%
-overflow auto
-display flex
+  width 100%
+  overflow auto
+  display flex
 
 for $brand, $brand-color in $brands
   .col-{$i}.{$brand}
@@ -29,5 +29,5 @@ for $i in (1..12)
     .row.{$brand} .col-{$i}
       background-color lighten($brand-color, 80%)
 
-    .col-{$i}.{$brand}
+    html .row .col-{$i}.{$brand}
       background-color lighten($brand-color, 80%)
