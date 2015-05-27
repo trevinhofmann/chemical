@@ -201,59 +201,36 @@ p.small {
 p.large {
   font-size: 21px;
 }
-h1 {
-  font-size: 48px;
-  border: 0;
-  border-radius: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  border: $heading-border;
+  border-radius: $heading-border-radius;
   padding: 2px 0;
   margin: 0;
   color: #000;
   background-color: #fff;
+}
+h1 {
+  font-size: 48px;
 }
 h2 {
   font-size: 38px;
-  border: 0;
-  border-radius: 0;
-  padding: 2px 0;
-  margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 h3 {
   font-size: 30px;
-  border: 0;
-  border-radius: 0;
-  padding: 2px 0;
-  margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 h4 {
   font-size: 24px;
-  border: 0;
-  border-radius: 0;
-  padding: 2px 0;
-  margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 h5 {
   font-size: 19px;
-  border: 0;
-  border-radius: 0;
-  padding: 2px 0;
-  margin: 0;
-  color: #000;
-  background-color: #fff;
 }
 h6 {
-  font-size: 15px;
-  border: 0;
-  border-radius: 0;
-  padding: 2px 0;
-  margin: 0;
-  color: #000;
-  background-color: #fff;
+  font-size: $h6-font-size;
 }
 h1.page-heading,
 h2.page-heading,
