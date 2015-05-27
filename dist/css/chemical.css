@@ -315,6 +315,7 @@ input[type='submit'][disabled].red:hover,
 input[type='submit'][disabled].red:active {
   color: #fff;
   background-color: #de786d;
+  border-color: #de786d;
 }
 button.orange,
 input[type='button'].orange,
@@ -346,6 +347,7 @@ input[type='submit'][disabled].orange:hover,
 input[type='submit'][disabled].orange:active {
   color: #fff;
   background-color: #ff8a3d;
+  border-color: #ff8a3d;
 }
 button.yellow,
 input[type='button'].yellow,
@@ -377,6 +379,7 @@ input[type='submit'][disabled].yellow:hover,
 input[type='submit'][disabled].yellow:active {
   color: #fff;
   background-color: #f6d963;
+  border-color: #f6d963;
 }
 button.green,
 input[type='button'].green,
@@ -408,6 +411,7 @@ input[type='submit'][disabled].green:hover,
 input[type='submit'][disabled].green:active {
   color: #fff;
   background-color: #61dc95;
+  border-color: #61dc95;
 }
 button.blue,
 input[type='button'].blue,
@@ -439,6 +443,7 @@ input[type='submit'][disabled].blue:hover,
 input[type='submit'][disabled].blue:active {
   color: #fff;
   background-color: #68afde;
+  border-color: #68afde;
 }
 button.purple,
 input[type='button'].purple,
@@ -470,6 +475,7 @@ input[type='submit'][disabled].purple:hover,
 input[type='submit'][disabled].purple:active {
   color: #fff;
   background-color: #b781ce;
+  border-color: #b781ce;
 }
 button.small {
   font-size: 9px;

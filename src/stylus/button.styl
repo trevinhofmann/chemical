@@ -63,6 +63,7 @@ for $flavor, $flavor-color in $flavors
   input[type='submit'][disabled].{$flavor}:active
     color dark(darken($flavor-color, 35%)) ? #fff : #000
     background-color lighten($flavor-color, 35%)
+    border-color lighten($flavor-color, 35%)
 
 button.small
   font-size $button-small-font-size
