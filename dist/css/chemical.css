@@ -556,3 +556,158 @@ footer.fixed {
   position: fixed;
   bottom: 0;
 }
+.row {
+  width: 100%;
+  overflow: auto;
+}
+.row.bordered .col,
+.row.bordered .col-1,
+.row.bordered .col-2,
+.row.bordered .col-3,
+.row.bordered .col-4,
+.row.bordered .col-5,
+.row.bordered .col-6,
+.row.bordered .col-7,
+.row.bordered .col-8,
+.row.bordered .col-9,
+.row.bordered .col-10,
+.row.bordered .col-11,
+.row.bordered .col-12 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  float: left;
+}
+.col-1 {
+  width: 8.333%;
+  padding: 8px;
+}
+.col-1.small {
+  padding: 5px;
+}
+.col-1.large {
+  padding: 12px;
+}
+.col-2 {
+  width: 16.666%;
+  padding: 8px;
+}
+.col-2.small {
+  padding: 5px;
+}
+.col-2.large {
+  padding: 12px;
+}
+.col-3 {
+  width: 25%;
+  padding: 8px;
+}
+.col-3.small {
+  padding: 5px;
+}
+.col-3.large {
+  padding: 12px;
+}
+.col-4 {
+  width: 33.333%;
+  padding: 8px;
+}
+.col-4.small {
+  padding: 5px;
+}
+.col-4.large {
+  padding: 12px;
+}
+.col-5 {
+  width: 41.666%;
+  padding: 8px;
+}
+.col-5.small {
+  padding: 5px;
+}
+.col-5.large {
+  padding: 12px;
+}
+.col-6 {
+  width: 50%;
+  padding: 8px;
+}
+.col-6.small {
+  padding: 5px;
+}
+.col-6.large {
+  padding: 12px;
+}
+.col-7 {
+  width: 58.333%;
+  padding: 8px;
+}
+.col-7.small {
+  padding: 5px;
+}
+.col-7.large {
+  padding: 12px;
+}
+.col-8 {
+  width: 66.666%;
+  padding: 8px;
+}
+.col-8.small {
+  padding: 5px;
+}
+.col-8.large {
+  padding: 12px;
+}
+.col-9 {
+  width: 75%;
+  padding: 8px;
+}
+.col-9.small {
+  padding: 5px;
+}
+.col-9.large {
+  padding: 12px;
+}
+.col-10 {
+  width: 83.333%;
+  padding: 8px;
+}
+.col-10.small {
+  padding: 5px;
+}
+.col-10.large {
+  padding: 12px;
+}
+.col-11 {
+  width: 91.666%;
+  padding: 8px;
+}
+.col-11.small {
+  padding: 5px;
+}
+.col-11.large {
+  padding: 12px;
+}
+.col-12 {
+  width: 100%;
+  padding: 8px;
+}
+.col-12.small {
+  padding: 5px;
+}
+.col-12.large {
+  padding: 12px;
+}

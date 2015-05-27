@@ -1,0 +1,26 @@
+.row
+  width 100%
+  overflow auto
+
+.row.bordered .col
+  border 1px solid #eee
+  box-sizing border-box
+
+.col
+  float left
+
+for i in (1..12)
+
+  .col-{i}
+    @extends .col
+    width floor((100% / 12) * i, 3)
+    padding $medium
+
+  .col-{i}.small
+    padding $small
+
+  .col-{i}.large
+    padding $large
+
+  .row.bordered .col-{i}
+    @extends .row.bordered .col
