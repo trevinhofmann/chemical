@@ -36,180 +36,37 @@ input[type='submit'][disabled]:active
   color $button-disabled-color
   background-color $button-disabled-background-color
 
-button.primary,
-input[type='button'].primary,
-input[type='submit'].primary
-  border-color $button-primary-border-color
-  color $button-primary-color
-  background-color $button-primary-background-color
+for $brand, $brand-color in $brands
 
-button.primary:hover,
-input[type='button'].primary:hover,
-input[type='submit'].primary:hover
-  border-color $button-primary-hover-border-color
-  color $button-primary-hover-color
-  background-color $button-primary-hover-background-color
+  button.{$brand},
+  input[type='button'].{$brand},
+  input[type='submit'].{$brand}
+    color dark(darken($brand-color, 35%)) ? #fff : #000
+    background-color $brand-color
 
-button.primary:active,
-input[type='button'].primary:active,
-input[type='submit'].primary:active
-  border-color $button-primary-active-border-color
-  color $button-primary-active-color
-  background-color $button-primary-active-background-color
+  button.{$brand}:hover,
+  input[type='button'].{$brand}:hover,
+  input[type='submit'].{$brand}:hover
+    color dark(darken($brand-color, 35%)) ? #fff : #000
+    background-color darken($brand-color, 20%)
 
-button.primary[disabled],
-button.primary[disabled]:hover,
-button.primary[disabled]:active,
-input[type='button'][disabled].primary,
-input[type='button'][disabled].primary:hover,
-input[type='button'][disabled].primary:active,
-input[type='submit'][disabled].primary,
-input[type='submit'][disabled].primary:hover,
-input[type='submit'][disabled].primary:active
-  border-color $button-primary-disabled-border-color
-  color $button-primary-disabled-color
-  background-color $button-primary-disabled-background-color
+  button.{$brand}:active,
+  input[type='button'].{$brand}:active,
+  input[type='submit'].{$brand}:active
+    color dark(darken($brand-color, 35%)) ? #fff : #000
+    background-color darken($brand-color, 35%)
 
-button.secondary,
-input[type='button'].secondary,
-input[type='submit'].secondary
-  border-color $button-secondary-border-color
-  color $button-secondary-color
-  background-color $button-secondary-background-color
-
-button.secondary:hover,
-input[type='button'].secondary:hover,
-input[type='submit'].secondary:hover
-  border-color $button-secondary-hover-border-color
-  color $button-secondary-hover-color
-  background-color $button-secondary-hover-background-color
-
-button.secondary:active,
-input[type='button'].secondary:active,
-input[type='submit'].secondary:active
-  border-color $button-secondary-active-border-color
-  color $button-secondary-active-color
-  background-color $button-secondary-active-background-color
-
-button.secondary[disabled],
-button.secondary[disabled]:hover,
-button.secondary[disabled]:active,
-input[type='button'][disabled].secondary,
-input[type='button'][disabled].secondary:hover,
-input[type='button'][disabled].secondary:active,
-input[type='submit'][disabled].secondary,
-input[type='submit'][disabled].secondary:hover,
-input[type='submit'][disabled].secondary:active
-  border-color $button-secondary-disabled-border-color
-  color $button-secondary-disabled-color
-  background-color $button-secondary-disabled-background-color
-
-button.success
-  border-color $button-success-border-color
-  color $button-success-color
-  background-color $button-success-background-color
-
-button.success,
-input[type='button'].success,
-input[type='submit'].success
-  border-color $button-success-border-color
-  color $button-success-color
-  background-color $button-success-background-color
-
-button.success:hover,
-input[type='button'].success:hover,
-input[type='submit'].success:hover
-  border-color $button-success-hover-border-color
-  color $button-success-hover-color
-  background-color $button-success-hover-background-color
-
-button.success:active,
-input[type='button'].success:active,
-input[type='submit'].success:active
-  border-color $button-success-active-border-color
-  color $button-success-active-color
-  background-color $button-success-active-background-color
-
-button.success[disabled],
-button.success[disabled]:hover,
-button.success[disabled]:active,
-input[type='button'][disabled].success,
-input[type='button'][disabled].success:hover,
-input[type='button'][disabled].success:active,
-input[type='submit'][disabled].success,
-input[type='submit'][disabled].success:hover,
-input[type='submit'][disabled].success:active
-  border-color $button-success-disabled-border-color
-  color $button-success-disabled-color
-  background-color $button-success-disabled-background-color
-
-button.warning,
-input[type='button'].warning,
-input[type='submit'].warning
-  border-color $button-warning-border-color
-  color $button-warning-color
-  background-color $button-warning-background-color
-
-button.warning:hover,
-input[type='button'].warning:hover,
-input[type='submit'].warning:hover
-  border-color $button-warning-hover-border-color
-  color $button-warning-hover-color
-  background-color $button-warning-hover-background-color
-
-button.warning:active,
-input[type='button'].warning:active,
-input[type='submit'].warning:active
-  border-color $button-warning-active-border-color
-  color $button-warning-active-color
-  background-color $button-warning-active-background-color
-
-button.warning[disabled],
-button.warning[disabled]:hover,
-button.warning[disabled]:active,
-input[type='button'][disabled].warning,
-input[type='button'][disabled].warning:hover,
-input[type='button'][disabled].warning:active,
-input[type='submit'][disabled].warning,
-input[type='submit'][disabled].warning:hover,
-input[type='submit'][disabled].warning:active
-  border-color $button-warning-disabled-border-color
-  color $button-warning-disabled-color
-  background-color $button-warning-disabled-background-color
-
-button.danger,
-input[type='button'].danger,
-input[type='submit'].danger
-  border-color $button-danger-border-color
-  color $button-danger-color
-  background-color $button-danger-background-color
-
-button.danger:hover,
-input[type='button'].danger:hover,
-input[type='submit'].danger:hover
-  border-color $button-danger-hover-border-color
-  color $button-danger-hover-color
-  background-color $button-danger-hover-background-color
-
-button.danger:active,
-input[type='button'].danger:active,
-input[type='submit'].danger:active
-  border-color $button-danger-active-border-color
-  color $button-danger-active-color
-  background-color $button-danger-active-background-color
-
-button.danger[disabled],
-button.danger[disabled]:hover,
-button.danger[disabled]:active,
-input[type='button'][disabled].danger,
-input[type='button'][disabled].danger:hover,
-input[type='button'][disabled].danger:active,
-input[type='submit'][disabled].danger,
-input[type='submit'][disabled].danger:hover,
-input[type='submit'][disabled].danger:active
-  border-color $button-danger-disabled-border-color
-  color $button-danger-disabled-color
-  background-color $button-danger-disabled-background-color
+  button.{$brand}[disabled],
+  button.{$brand}[disabled]:hover,
+  button.{$brand}[disabled]:active,
+  input[type='button'][disabled].{$brand},
+  input[type='button'][disabled].{$brand}:hover,
+  input[type='button'][disabled].{$brand}:active,
+  input[type='submit'][disabled].{$brand},
+  input[type='submit'][disabled].{$brand}:hover,
+  input[type='submit'][disabled].{$brand}:active
+    color dark(darken($brand-color, 35%)) ? #fff : #000
+    background-color lighten($brand-color, 35%)
 
 button.small
   font-size $button-small-font-size
