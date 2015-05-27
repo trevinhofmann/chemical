@@ -7,6 +7,15 @@ $color = #000
 $background-color = #fff
 $border-color = #c1c1c1
 
+// brands
+$brands = {
+  primary: #0066ff,
+  secondary: #5cadff,
+  success: #61b827,
+  warning: #f58a20,
+  danger: #e64545
+}
+
 // fonts
 $font-size-small = 9px
 $font-size-medium = 14px
@@ -172,7 +181,7 @@ $button-large-margin = 0
 // primary button
 $button-primary-border-color = $button-border-color
 $button-primary-color = #fff
-$button-primary-background-color = #0066ff
+$button-primary-background-color = $brands['primary']
 $button-primary-hover-border-color = $button-primary-border-color
 $button-primary-hover-color = $button-primary-color
 $button-primary-hover-background-color = darken($button-primary-background-color, 20%)
@@ -186,7 +195,7 @@ $button-primary-disabled-background-color = lighten($button-primary-background-c
 // secondary button
 $button-secondary-border-color = $button-border-color
 $button-secondary-color = #fff
-$button-secondary-background-color = #5cadff
+$button-secondary-background-color = $brands['secondary']
 $button-secondary-hover-border-color = $button-secondary-border-color
 $button-secondary-hover-color = $button-secondary-color
 $button-secondary-hover-background-color = darken($button-secondary-background-color, 20%)
@@ -200,7 +209,7 @@ $button-secondary-disabled-background-color = lighten($button-secondary-backgrou
 // success button
 $button-success-border-color = $button-border-color
 $button-success-color = #fff
-$button-success-background-color = #61b827
+$button-success-background-color = $brands['success']
 $button-success-hover-border-color = $button-success-border-color
 $button-success-hover-color = $button-success-color
 $button-success-hover-background-color = darken($button-success-background-color, 20%)
@@ -214,7 +223,7 @@ $button-success-disabled-background-color = lighten($button-success-background-c
 // warning button
 $button-warning-border-color = $button-border-color
 $button-warning-color = #fff
-$button-warning-background-color = #f58a20
+$button-warning-background-color = $brands['warning']
 $button-warning-hover-border-color = $button-warning-border-color
 $button-warning-hover-color = $button-warning-color
 $button-warning-hover-background-color = darken($button-warning-background-color, 20%)
@@ -228,7 +237,7 @@ $button-warning-disabled-background-color = lighten($button-warning-background-c
 // danger button
 $button-danger-border-color = $button-border-color
 $button-danger-color = #fff
-$button-danger-background-color = #e64545
+$button-danger-background-color = $brands['danger']
 $button-danger-hover-border-color = $button-danger-border-color
 $button-danger-hover-color = $button-danger-color
 $button-danger-hover-background-color = darken($button-danger-background-color, 20%)

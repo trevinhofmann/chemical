@@ -559,39 +559,10 @@ footer.fixed {
 .row {
   width: 100%;
   overflow: auto;
-}
-.row.bordered .col,
-.row.bordered .col-1,
-.row.bordered .col-2,
-.row.bordered .col-3,
-.row.bordered .col-4,
-.row.bordered .col-5,
-.row.bordered .col-6,
-.row.bordered .col-7,
-.row.bordered .col-8,
-.row.bordered .col-9,
-.row.bordered .col-10,
-.row.bordered .col-11,
-.row.bordered .col-12 {
-  border: 1px solid #eee;
-  box-sizing: border-box;
-}
-.col,
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-  float: left;
+  display: flex;
 }
 .col-1 {
+  float: left;
   width: 8.333%;
   padding: 8px;
 }
@@ -601,7 +572,27 @@ footer.fixed {
 .col-1.large {
   padding: 12px;
 }
+.row.bordered .col-1 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-1.primary {
+  background-color: #cce0ff;
+}
+.col-1.secondary {
+  background-color: #deefff;
+}
+.col-1.success {
+  background-color: #dff5d0;
+}
+.col-1.warning {
+  background-color: #fde8d2;
+}
+.col-1.danger {
+  background-color: #fadada;
+}
 .col-2 {
+  float: left;
   width: 16.666%;
   padding: 8px;
 }
@@ -611,7 +602,27 @@ footer.fixed {
 .col-2.large {
   padding: 12px;
 }
+.row.bordered .col-2 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-2.primary {
+  background-color: #cce0ff;
+}
+.col-2.secondary {
+  background-color: #deefff;
+}
+.col-2.success {
+  background-color: #dff5d0;
+}
+.col-2.warning {
+  background-color: #fde8d2;
+}
+.col-2.danger {
+  background-color: #fadada;
+}
 .col-3 {
+  float: left;
   width: 25%;
   padding: 8px;
 }
@@ -621,7 +632,27 @@ footer.fixed {
 .col-3.large {
   padding: 12px;
 }
+.row.bordered .col-3 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-3.primary {
+  background-color: #cce0ff;
+}
+.col-3.secondary {
+  background-color: #deefff;
+}
+.col-3.success {
+  background-color: #dff5d0;
+}
+.col-3.warning {
+  background-color: #fde8d2;
+}
+.col-3.danger {
+  background-color: #fadada;
+}
 .col-4 {
+  float: left;
   width: 33.333%;
   padding: 8px;
 }
@@ -631,7 +662,27 @@ footer.fixed {
 .col-4.large {
   padding: 12px;
 }
+.row.bordered .col-4 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-4.primary {
+  background-color: #cce0ff;
+}
+.col-4.secondary {
+  background-color: #deefff;
+}
+.col-4.success {
+  background-color: #dff5d0;
+}
+.col-4.warning {
+  background-color: #fde8d2;
+}
+.col-4.danger {
+  background-color: #fadada;
+}
 .col-5 {
+  float: left;
   width: 41.666%;
   padding: 8px;
 }
@@ -641,7 +692,27 @@ footer.fixed {
 .col-5.large {
   padding: 12px;
 }
+.row.bordered .col-5 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-5.primary {
+  background-color: #cce0ff;
+}
+.col-5.secondary {
+  background-color: #deefff;
+}
+.col-5.success {
+  background-color: #dff5d0;
+}
+.col-5.warning {
+  background-color: #fde8d2;
+}
+.col-5.danger {
+  background-color: #fadada;
+}
 .col-6 {
+  float: left;
   width: 50%;
   padding: 8px;
 }
@@ -651,7 +722,27 @@ footer.fixed {
 .col-6.large {
   padding: 12px;
 }
+.row.bordered .col-6 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-6.primary {
+  background-color: #cce0ff;
+}
+.col-6.secondary {
+  background-color: #deefff;
+}
+.col-6.success {
+  background-color: #dff5d0;
+}
+.col-6.warning {
+  background-color: #fde8d2;
+}
+.col-6.danger {
+  background-color: #fadada;
+}
 .col-7 {
+  float: left;
   width: 58.333%;
   padding: 8px;
 }
@@ -661,7 +752,27 @@ footer.fixed {
 .col-7.large {
   padding: 12px;
 }
+.row.bordered .col-7 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-7.primary {
+  background-color: #cce0ff;
+}
+.col-7.secondary {
+  background-color: #deefff;
+}
+.col-7.success {
+  background-color: #dff5d0;
+}
+.col-7.warning {
+  background-color: #fde8d2;
+}
+.col-7.danger {
+  background-color: #fadada;
+}
 .col-8 {
+  float: left;
   width: 66.666%;
   padding: 8px;
 }
@@ -671,7 +782,27 @@ footer.fixed {
 .col-8.large {
   padding: 12px;
 }
+.row.bordered .col-8 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-8.primary {
+  background-color: #cce0ff;
+}
+.col-8.secondary {
+  background-color: #deefff;
+}
+.col-8.success {
+  background-color: #dff5d0;
+}
+.col-8.warning {
+  background-color: #fde8d2;
+}
+.col-8.danger {
+  background-color: #fadada;
+}
 .col-9 {
+  float: left;
   width: 75%;
   padding: 8px;
 }
@@ -681,7 +812,27 @@ footer.fixed {
 .col-9.large {
   padding: 12px;
 }
+.row.bordered .col-9 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-9.primary {
+  background-color: #cce0ff;
+}
+.col-9.secondary {
+  background-color: #deefff;
+}
+.col-9.success {
+  background-color: #dff5d0;
+}
+.col-9.warning {
+  background-color: #fde8d2;
+}
+.col-9.danger {
+  background-color: #fadada;
+}
 .col-10 {
+  float: left;
   width: 83.333%;
   padding: 8px;
 }
@@ -691,7 +842,27 @@ footer.fixed {
 .col-10.large {
   padding: 12px;
 }
+.row.bordered .col-10 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-10.primary {
+  background-color: #cce0ff;
+}
+.col-10.secondary {
+  background-color: #deefff;
+}
+.col-10.success {
+  background-color: #dff5d0;
+}
+.col-10.warning {
+  background-color: #fde8d2;
+}
+.col-10.danger {
+  background-color: #fadada;
+}
 .col-11 {
+  float: left;
   width: 91.666%;
   padding: 8px;
 }
@@ -701,7 +872,27 @@ footer.fixed {
 .col-11.large {
   padding: 12px;
 }
+.row.bordered .col-11 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-11.primary {
+  background-color: #cce0ff;
+}
+.col-11.secondary {
+  background-color: #deefff;
+}
+.col-11.success {
+  background-color: #dff5d0;
+}
+.col-11.warning {
+  background-color: #fde8d2;
+}
+.col-11.danger {
+  background-color: #fadada;
+}
 .col-12 {
+  float: left;
   width: 100%;
   padding: 8px;
 }
@@ -710,4 +901,23 @@ footer.fixed {
 }
 .col-12.large {
   padding: 12px;
+}
+.row.bordered .col-12 {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.col-12.primary {
+  background-color: #cce0ff;
+}
+.col-12.secondary {
+  background-color: #deefff;
+}
+.col-12.success {
+  background-color: #dff5d0;
+}
+.col-12.warning {
+  background-color: #fde8d2;
+}
+.col-12.danger {
+  background-color: #fadada;
 }

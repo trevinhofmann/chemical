@@ -1,26 +1,25 @@
 .row
   width 100%
   overflow auto
+  display flex
 
-.row.bordered .col
-  border 1px solid #eee
-  box-sizing border-box
+for $i in (1..12)
 
-.col
-  float left
-
-for i in (1..12)
-
-  .col-{i}
-    @extends .col
-    width floor((100% / 12) * i, 3)
+  .col-{$i}
+    float left
+    width floor((100% / 12) * $i, 3)
     padding $padding-medium
 
-  .col-{i}.small
+  .col-{$i}.small
     padding $padding-small
 
-  .col-{i}.large
+  .col-{$i}.large
     padding $padding-large
 
-  .row.bordered .col-{i}
-    @extends .row.bordered .col
+  .row.bordered .col-{$i}
+    border 1px solid #eee
+    box-sizing border-box
+
+  for $brand, $brand-color in $brands
+    .col-{$i}.{$brand}
+      background-color lighten($brand-color, 80%)
