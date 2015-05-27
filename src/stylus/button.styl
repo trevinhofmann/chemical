@@ -36,37 +36,37 @@ input[type='submit'][disabled]:active
   color $button-disabled-color
   background-color $button-disabled-background-color
 
-for $brand, $brand-color in $brands
+for $flavor, $flavor-color in $flavors
 
-  button.{$brand},
-  input[type='button'].{$brand},
-  input[type='submit'].{$brand}
-    color dark(darken($brand-color, 35%)) ? #fff : #000
-    background-color $brand-color
+  button.{$flavor},
+  input[type='button'].{$flavor},
+  input[type='submit'].{$flavor}
+    color dark(darken($flavor-color, 35%)) ? #fff : #000
+    background-color $flavor-color
 
-  button.{$brand}:hover,
-  input[type='button'].{$brand}:hover,
-  input[type='submit'].{$brand}:hover
-    color dark(darken($brand-color, 35%)) ? #fff : #000
-    background-color darken($brand-color, 20%)
+  button.{$flavor}:hover,
+  input[type='button'].{$flavor}:hover,
+  input[type='submit'].{$flavor}:hover
+    color dark(darken($flavor-color, 35%)) ? #fff : #000
+    background-color darken($flavor-color, 20%)
 
-  button.{$brand}:active,
-  input[type='button'].{$brand}:active,
-  input[type='submit'].{$brand}:active
-    color dark(darken($brand-color, 35%)) ? #fff : #000
-    background-color darken($brand-color, 35%)
+  button.{$flavor}:active,
+  input[type='button'].{$flavor}:active,
+  input[type='submit'].{$flavor}:active
+    color dark(darken($flavor-color, 35%)) ? #fff : #000
+    background-color darken($flavor-color, 35%)
 
-  button.{$brand}[disabled],
-  button.{$brand}[disabled]:hover,
-  button.{$brand}[disabled]:active,
-  input[type='button'][disabled].{$brand},
-  input[type='button'][disabled].{$brand}:hover,
-  input[type='button'][disabled].{$brand}:active,
-  input[type='submit'][disabled].{$brand},
-  input[type='submit'][disabled].{$brand}:hover,
-  input[type='submit'][disabled].{$brand}:active
-    color dark(darken($brand-color, 35%)) ? #fff : #000
-    background-color lighten($brand-color, 35%)
+  button.{$flavor}[disabled],
+  button.{$flavor}[disabled]:hover,
+  button.{$flavor}[disabled]:active,
+  input[type='button'][disabled].{$flavor},
+  input[type='button'][disabled].{$flavor}:hover,
+  input[type='button'][disabled].{$flavor}:active,
+  input[type='submit'][disabled].{$flavor},
+  input[type='submit'][disabled].{$flavor}:hover,
+  input[type='submit'][disabled].{$flavor}:active
+    color dark(darken($flavor-color, 35%)) ? #fff : #000
+    background-color lighten($flavor-color, 35%)
 
 button.small
   font-size $button-small-font-size
