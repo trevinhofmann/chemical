@@ -266,15 +266,11 @@ input[type='submit'] {
 button:hover,
 input[type='button']:hover,
 input[type='submit']:hover {
-  border-color: #c1c1c1;
-  color: #000;
   background-color: #ccc;
 }
 button:active,
 input[type='button']:active,
 input[type='submit']:active {
-  border-color: #c1c1c1;
-  color: #000;
   background-color: #a6a6a6;
 }
 button[disabled],
@@ -288,13 +284,13 @@ input[type='submit'][disabled]:hover,
 input[type='submit'][disabled]:active {
   border-color: #d7d7d7;
   color: #595959;
-  background-color: #fff;
 }
 button.red,
 input[type='button'].red,
 input[type='submit'].red {
   color: #fff;
   background-color: #c0392b;
+  border-color: #c0392b;
 }
 button.red:hover,
 input[type='button'].red:hover,
@@ -319,12 +315,14 @@ input[type='submit'][disabled].red:hover,
 input[type='submit'][disabled].red:active {
   color: #fff;
   background-color: #de786d;
+  border-color: #de786d;
 }
 button.orange,
 input[type='button'].orange,
 input[type='submit'].orange {
   color: #fff;
   background-color: #d35400;
+  border-color: #d35400;
 }
 button.orange:hover,
 input[type='button'].orange:hover,
@@ -349,12 +347,14 @@ input[type='submit'][disabled].orange:hover,
 input[type='submit'][disabled].orange:active {
   color: #fff;
   background-color: #ff8a3d;
+  border-color: #ff8a3d;
 }
 button.yellow,
 input[type='button'].yellow,
 input[type='submit'].yellow {
   color: #fff;
   background-color: #f1c40f;
+  border-color: #f1c40f;
 }
 button.yellow:hover,
 input[type='button'].yellow:hover,
@@ -379,12 +379,14 @@ input[type='submit'][disabled].yellow:hover,
 input[type='submit'][disabled].yellow:active {
   color: #fff;
   background-color: #f6d963;
+  border-color: #f6d963;
 }
 button.green,
 input[type='button'].green,
 input[type='submit'].green {
   color: #fff;
   background-color: #27ae60;
+  border-color: #27ae60;
 }
 button.green:hover,
 input[type='button'].green:hover,
@@ -409,12 +411,14 @@ input[type='submit'][disabled].green:hover,
 input[type='submit'][disabled].green:active {
   color: #fff;
   background-color: #61dc95;
+  border-color: #61dc95;
 }
 button.blue,
 input[type='button'].blue,
 input[type='submit'].blue {
   color: #fff;
   background-color: #2980b9;
+  border-color: #2980b9;
 }
 button.blue:hover,
 input[type='button'].blue:hover,
@@ -439,12 +443,14 @@ input[type='submit'][disabled].blue:hover,
 input[type='submit'][disabled].blue:active {
   color: #fff;
   background-color: #68afde;
+  border-color: #68afde;
 }
 button.purple,
 input[type='button'].purple,
 input[type='submit'].purple {
   color: #fff;
   background-color: #8e44ad;
+  border-color: #8e44ad;
 }
 button.purple:hover,
 input[type='button'].purple:hover,
@@ -469,6 +475,7 @@ input[type='submit'][disabled].purple:hover,
 input[type='submit'][disabled].purple:active {
   color: #fff;
   background-color: #b781ce;
+  border-color: #b781ce;
 }
 button.small {
   font-size: 9px;
