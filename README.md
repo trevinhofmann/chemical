@@ -2,7 +2,7 @@
 
 Chemical is an extensible front end web framework.
 
-Check out the demonstration at [https://chemical-framework.github.io/](https://chemical-framework.github.io/).
+Check out the demonstration at [http://thofmann.github.io/chemical/demo/](http://thofmann.github.io/chemical/demo/).
 
 
 ## Compiling
