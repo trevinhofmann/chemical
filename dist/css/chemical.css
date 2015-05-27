@@ -255,8 +255,8 @@ h4.page-heading,
 h5.page-heading,
 h6.page-heading {
   border-bottom: 1px solid #b5b5b5;
-  padding: 10px 0;
-  margin: 30px 0 20px 0;
+  padding: 8px 0;
+  margin: 12px 0;
 }
 a {
   color: #3261ab;
@@ -485,13 +485,13 @@ input[type='submit'][disabled].danger:active {
 }
 button.small {
   font-size: 9px;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 5px;
   margin: 0;
 }
 button.large {
   font-size: 21px;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 12px;
   margin: 0;
 }
@@ -508,7 +508,7 @@ input.block {
 }
 .container {
   border: 0;
-  padding: 15px;
+  padding: 8px;
   margin: 0;
 }
 .container.narrow {
@@ -524,14 +524,14 @@ input.block {
 .panel {
   border: 1px solid #c1c1c1;
   border-radius: 4px;
-  padding: 10px;
+  padding: 8px;
   margin: 0;
 }
 .code {
   font-family: "Courier New", Courier, monospace;
   border: 1px solid #c1c1c1;
   border-radius: 4px;
-  padding: 2px;
+  padding: 5px;
   margin: 0;
   background-color: #ebebeb;
 }
