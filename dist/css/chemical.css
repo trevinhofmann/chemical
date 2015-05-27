@@ -184,6 +184,7 @@ p {
   color: #000;
   background-color: #fff;
   line-height: 150%;
+  font-size: 16px;
 }
 p.single-spaced {
   line-height: 100%;
@@ -194,8 +195,14 @@ p.double-spaced {
 p.indented {
   text-indent: 30px;
 }
+p.small {
+  font-size: 9px;
+}
+p.large {
+  font-size: 21px;
+}
 h1 {
-  font-size: 42px;
+  font-size: 48px;
   border: 0;
   border-radius: 0;
   padding: 2px 0;
@@ -204,7 +211,7 @@ h1 {
   background-color: #fff;
 }
 h2 {
-  font-size: 34px;
+  font-size: 38px;
   border: 0;
   border-radius: 0;
   padding: 2px 0;
@@ -213,7 +220,7 @@ h2 {
   background-color: #fff;
 }
 h3 {
-  font-size: 27px;
+  font-size: 30px;
   border: 0;
   border-radius: 0;
   padding: 2px 0;
@@ -222,7 +229,7 @@ h3 {
   background-color: #fff;
 }
 h4 {
-  font-size: 22px;
+  font-size: 24px;
   border: 0;
   border-radius: 0;
   padding: 2px 0;
@@ -231,7 +238,7 @@ h4 {
   background-color: #fff;
 }
 h5 {
-  font-size: 18px;
+  font-size: 19px;
   border: 0;
   border-radius: 0;
   padding: 2px 0;
@@ -240,7 +247,7 @@ h5 {
   background-color: #fff;
 }
 h6 {
-  font-size: 14px;
+  font-size: 15px;
   border: 0;
   border-radius: 0;
   padding: 2px 0;
@@ -273,7 +280,7 @@ a:hover {
 button,
 input[type='button'],
 input[type='submit'] {
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid #c1c1c1;
   border-radius: 0;
   padding: 8px;
