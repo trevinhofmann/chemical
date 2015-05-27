@@ -516,6 +516,11 @@ input.block {
   margin-left: auto;
   margin-right: auto;
 }
+.container.very-narrow {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .panel {
   border: 1px solid #c1c1c1;
   border-radius: 4px;
