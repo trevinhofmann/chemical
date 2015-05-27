@@ -3,10 +3,6 @@
   overflow auto
   display flex
 
-for $brand, $brand-color in $brands
-  .col-{$i}.{$brand}
-    background-color lighten($brand-color, 80%)
-
 for $i in (1..12)
 
   .col-{$i}
@@ -25,6 +21,9 @@ for $i in (1..12)
     box-sizing border-box
 
   for $brand, $brand-color in $brands
+
+    .col-{$i}.{$brand}
+      background-color lighten($brand-color, 80%)
 
     .row.{$brand} .col-{$i}
       background-color lighten($brand-color, 80%)
