@@ -3,10 +3,6 @@
   overflow auto
   display flex
 
-for $brand, $brand-color in $brands
-  .col-{$i}.{$brand}
-    background-color lighten($brand-color, 80%)
-
 for $i in (1..12)
 
   .col-{$i}
@@ -24,10 +20,13 @@ for $i in (1..12)
     border 1px solid #eee
     box-sizing border-box
 
-  for $brand, $brand-color in $brands
+  for $flavor, $flavor-color in $flavors
 
-    .row.{$brand} .col-{$i}
-      background-color lighten($brand-color, 80%)
+    .col-{$i}.{$flavor}
+      background-color lighten($flavor-color, 80%)
 
-    html .row .col-{$i}.{$brand}
-      background-color lighten($brand-color, 80%)
+    .row.{$flavor} .col-{$i}
+      background-color lighten($flavor-color, 80%)
+
+    html .row .col-{$i}.{$flavor}
+      background-color lighten($flavor-color, 80%)

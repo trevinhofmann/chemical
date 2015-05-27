@@ -7,24 +7,25 @@ $color = #000
 $background-color = #fff
 $border-color = #c1c1c1
 
-// brands
-$brands = {
-  primary: #0066ff,
-  secondary: #5cadff,
-  success: #61b827,
-  warning: #f58a20,
-  danger: #e64545
+// flavors
+$flavors = {
+  red: #ED2121,
+  orange: #ED8721,
+  yellow: #EDDC21,
+  green: #21ED51,
+  blue: #216FED,
+  purple: #A921ED
 }
 
 // fonts
 $font-size-small = 9px
-$font-size-medium = 14px
+$font-size-medium = 16px
 $font-size-large = 21px
 
 // borders
 $border-width = 1px
 $border-style = solid
-$border-radius = 4px
+$border-radius = 0
 
 // paddings
 $padding-small = 5px
@@ -42,8 +43,6 @@ $margin-large = 12px
  */
 
 // heading base
-$heading-border = 0
-$heading-border-radius = 0
 $heading-padding = 2px 0
 $heading-margin = 0
 $heading-color = $color
@@ -61,52 +60,6 @@ $h3-font-size = round($h2-font-size * 0.8)
 $h4-font-size = round($h3-font-size * 0.8)
 $h5-font-size = round($h4-font-size * 0.8)
 $h6-font-size = round($h5-font-size * 0.8)
-
-// heading borders
-$h1-border = $heading-border
-$h2-border = $heading-border
-$h3-border = $heading-border
-$h4-border = $heading-border
-$h5-border = $heading-border
-$h6-border = $heading-border
-$h1-border-radius = $heading-border-radius
-$h2-border-radius = $heading-border-radius
-$h3-border-radius = $heading-border-radius
-$h4-border-radius = $heading-border-radius
-$h5-border-radius = $heading-border-radius
-$h6-border-radius = $heading-border-radius
-
-// heading padding
-$h1-padding = $heading-padding
-$h2-padding = $heading-padding
-$h3-padding = $heading-padding
-$h4-padding = $heading-padding
-$h5-padding = $heading-padding
-$h6-padding = $heading-padding
-
-// heading margin
-$h1-margin = $heading-margin
-$h2-margin = $heading-margin
-$h3-margin = $heading-margin
-$h4-margin = $heading-margin
-$h5-margin = $heading-margin
-$h6-margin = $heading-margin
-
-// heading color
-$h1-color = $heading-color
-$h2-color = $heading-color
-$h3-color = $heading-color
-$h4-color = $heading-color
-$h5-color = $heading-color
-$h6-color = $heading-color
-
-// heading background color
-$h1-background-color = $heading-background-color
-$h2-background-color = $heading-background-color
-$h3-background-color = $heading-background-color
-$h4-background-color = $heading-background-color
-$h5-background-color = $heading-background-color
-$h6-background-color = $heading-background-color
 
 /*
  * Anchors
@@ -177,76 +130,6 @@ $button-large-font-size = $font-size-large
 $button-large-border-radius = $button-border-radius
 $button-large-padding = $padding-large
 $button-large-margin = 0
-
-// primary button
-$button-primary-border-color = $button-border-color
-$button-primary-color = #fff
-$button-primary-background-color = $brands['primary']
-$button-primary-hover-border-color = $button-primary-border-color
-$button-primary-hover-color = $button-primary-color
-$button-primary-hover-background-color = darken($button-primary-background-color, 20%)
-$button-primary-active-border-color = $button-primary-border-color
-$button-primary-active-color = $button-primary-color
-$button-primary-active-background-color = darken($button-primary-background-color, 35%)
-$button-primary-disabled-border-color = lighten($button-primary-border-color, 25%)
-$button-primary-disabled-color = darken($button-primary-color, 5%)
-$button-primary-disabled-background-color = lighten($button-primary-background-color, 35%)
-
-// secondary button
-$button-secondary-border-color = $button-border-color
-$button-secondary-color = #fff
-$button-secondary-background-color = $brands['secondary']
-$button-secondary-hover-border-color = $button-secondary-border-color
-$button-secondary-hover-color = $button-secondary-color
-$button-secondary-hover-background-color = darken($button-secondary-background-color, 20%)
-$button-secondary-active-border-color = $button-secondary-border-color
-$button-secondary-active-color = $button-secondary-color
-$button-secondary-active-background-color = darken($button-secondary-background-color, 35%)
-$button-secondary-disabled-border-color = lighten($button-secondary-border-color, 35%)
-$button-secondary-disabled-color = darken($button-secondary-color, 5%)
-$button-secondary-disabled-background-color = lighten($button-secondary-background-color, 35%)
-
-// success button
-$button-success-border-color = $button-border-color
-$button-success-color = #fff
-$button-success-background-color = $brands['success']
-$button-success-hover-border-color = $button-success-border-color
-$button-success-hover-color = $button-success-color
-$button-success-hover-background-color = darken($button-success-background-color, 20%)
-$button-success-active-border-color = $button-success-border-color
-$button-success-active-color = $button-success-color
-$button-success-active-background-color = darken($button-success-background-color, 35%)
-$button-success-disabled-border-color = lighten($button-success-border-color, 35%)
-$button-success-disabled-color = darken($button-success-color, 5%)
-$button-success-disabled-background-color = lighten($button-success-background-color, 35%)
-
-// warning button
-$button-warning-border-color = $button-border-color
-$button-warning-color = #fff
-$button-warning-background-color = $brands['warning']
-$button-warning-hover-border-color = $button-warning-border-color
-$button-warning-hover-color = $button-warning-color
-$button-warning-hover-background-color = darken($button-warning-background-color, 20%)
-$button-warning-active-border-color = $button-warning-border-color
-$button-warning-active-color = $button-warning-color
-$button-warning-active-background-color = darken($button-warning-background-color, 35%)
-$button-warning-disabled-border-color = lighten($button-warning-border-color, 35%)
-$button-warning-disabled-color = darken($button-warning-color, 5%)
-$button-warning-disabled-background-color = lighten($button-warning-background-color, 35%)
-
-// danger button
-$button-danger-border-color = $button-border-color
-$button-danger-color = #fff
-$button-danger-background-color = $brands['danger']
-$button-danger-hover-border-color = $button-danger-border-color
-$button-danger-hover-color = $button-danger-color
-$button-danger-hover-background-color = darken($button-danger-background-color, 20%)
-$button-danger-active-border-color = $button-danger-border-color
-$button-danger-active-color = $button-danger-color
-$button-danger-active-background-color = darken($button-danger-background-color, 35%)
-$button-danger-disabled-border-color = lighten($button-danger-border-color, 35%)
-$button-danger-disabled-color = darken($button-danger-color, 5%)
-$button-danger-disabled-background-color = lighten($button-danger-background-color, 35%)
 
 
 /*
