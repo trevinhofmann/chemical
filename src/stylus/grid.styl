@@ -1,32 +1,24 @@
-.row
+.grid
   width 100%
   overflow auto
-  display flex
 
-for $i in (1..12)
+.grid > div
+  float left
+  box-sizing border-box
+  height 100%
+  min-height 1px
+
+for $i in (0..12)
 
   .col-{$i}
-    float left
     width floor((100% / 12) * $i, 3)
-    padding $padding-medium
 
-  .col-{$i}.small
-    padding $padding-small
+for $name, $width in $screen-sizes
 
-  .col-{$i}.large
-    padding $padding-large
+  @media screen and (min-width: $width)
 
-  .row.bordered .col-{$i}
-    border 1px solid #eee
-    box-sizing border-box
+    for $i in (0..12)
 
-  for $flavor, $flavor-color in $flavors
+      .col-{$name + '-' + $i}
 
-    .col-{$i}.{$flavor}
-      background-color lighten($flavor-color, 80%)
-
-    .row.{$flavor} .col-{$i}
-      background-color lighten($flavor-color, 80%)
-
-    html .row .col-{$i}.{$flavor}
-      background-color lighten($flavor-color, 80%)
+          width floor((100% / 12) * $i, 3)

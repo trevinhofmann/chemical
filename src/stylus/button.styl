@@ -1,78 +1,25 @@
 button,
 input[type='button'],
 input[type='submit']
-  font-size $button-font-size
-  border $button-border
-  border-radius $button-border-radius
-  padding $button-padding
-  margin $button-margin
-  color $button-color
-  background-color $button-background-color
+  border 0
+  padding 8px 16px
+  background-color darken(#fff, 10%)
 
-button:hover,
-input[type='button']:hover,
-input[type='submit']:hover
-  background-color darken($button-background-color, 20%)
+  &:focus
+    outline 0
+    background-color darken(#fff, 10%)
 
-button:active,
-input[type='button']:active,
-input[type='submit']:active
-  background-color darken($button-background-color, 35%)
+  &:hover
+    background-color darken(#fff, 20%)
 
-button[disabled],
-button[disabled]:hover,
-button[disabled]:active,
-input[type='button'][disabled],
-input[type='button'][disabled]:hover,
-input[type='button'][disabled]:active,
-input[type='submit'][disabled],
-input[type='submit'][disabled]:hover,
-input[type='submit'][disabled]:active
-  border-color lighten($button-border-color, 35%)
-  color lighten($button-color, 35%)
+  &:active
+    background-color darken(#fff, 35%)
 
-for $flavor, $flavor-color in $flavors
+  &[disabled],
+  &[disabled]:hover,
+  &[disabled]:active
+    color lighten(#000, 75%)
+    background-color darken(#fff, 5%)
 
-  button.{$flavor},
-  input[type='button'].{$flavor},
-  input[type='submit'].{$flavor}
-    color dark(darken($flavor-color, 35%)) ? #fff : #000
-    background-color $flavor-color
-    border-color $flavor-color
-
-  button.{$flavor}:hover,
-  input[type='button'].{$flavor}:hover,
-  input[type='submit'].{$flavor}:hover
-    color dark(darken($flavor-color, 35%)) ? #fff : #000
-    background-color darken($flavor-color, 20%)
-
-  button.{$flavor}:active,
-  input[type='button'].{$flavor}:active,
-  input[type='submit'].{$flavor}:active
-    color dark(darken($flavor-color, 35%)) ? #fff : #000
-    background-color darken($flavor-color, 35%)
-
-  button.{$flavor}[disabled],
-  button.{$flavor}[disabled]:hover,
-  button.{$flavor}[disabled]:active,
-  input[type='button'][disabled].{$flavor},
-  input[type='button'][disabled].{$flavor}:hover,
-  input[type='button'][disabled].{$flavor}:active,
-  input[type='submit'][disabled].{$flavor},
-  input[type='submit'][disabled].{$flavor}:hover,
-  input[type='submit'][disabled].{$flavor}:active
-    color dark(darken($flavor-color, 35%)) ? #fff : #000
-    background-color lighten($flavor-color, 35%)
-    border-color lighten($flavor-color, 35%)
-
-button.small
-  font-size $button-small-font-size
-  border-radius $button-small-border-radius
-  padding $button-small-padding
-  margin $button-small-margin
-
-button.large
-  font-size $button-large-font-size
-  border-radius $button-large-border-radius
-  padding $button-large-padding
-  margin $button-large-margin
+  &.block
+    width 100%

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Chemical Demonstration</title>
+        <style type="text/css">
+            .container {
+                width: 75%;
+                margin: 50px auto;
+                border: 1px solid #ccc;
+                padding: 30px;
+            }
+
+            .spaced {
+                margin-top: 1em;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="../../dist/css/chemical.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Form</h1>
+            <form>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Email">
+                <label for="password">Password:</label>
+                <input id="password" type="password" name="password" placeholder="Password">
+                <input type="submit" value="Submit">
+            </form>
+            <hr>
+            <form>
+                <input id="block-username" type="text" class="block" name="username" placeholder="Username">
+                <input id="block-password" type="password" class="block spaced" name="password" placeholder="Password">
+                <input type="submit" class="block spaced" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
